@@ -7,10 +7,13 @@
 }
 
 body {
+  display: inline;
   background: #140f0a;
 }
 
 body #header {
+  display: block;
+  width: 100%;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   border-bottom: 1px solid #646464;
@@ -22,18 +25,34 @@ body #header span p {
   border-bottom: 2px solid #5b5bd4;
 }
 
-body #menu {
-  display: inline;
-  width: 20px;
+body #content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-body #menu a {
+body #content #menu {
+  height: 500px;
+  width: 100px;
+  background-color: #5b5bd4;
+}
+
+body #content #menu a {
   text-decoration: none;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  margin: 5px;
 }
 
-body #menu a #apli {
-  img: url();
+body #content #menu p {
+  padding: 5px;
+}
+
+body #content #content-frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  background-color: #646464;
 }
 /*# sourceMappingURL=main.css.map */

@@ -7,8 +7,11 @@
 }
 
 body{
+    display: inline;
     background: $primarycolor;
     #header{
+        display: block;
+        width: 100%;
         font-family: 'Roboto', sans-serif;
         color: $textcolor1;
         border-bottom: 1px solid $secondarycolor;
@@ -20,24 +23,34 @@ body{
         }
 
     }
-    #menu {
 
-        display:inline;
-        width: 20px;
+#content{
+    display:flex;
+    #menu {
+        
+        height: 500px;
+        width: 100px;
+        background-color: $quartycolor;
+
         a{
             text-decoration: none;
             color: $textcolor1;
             font-family: 'Roboto', sans-serif;
-            
-            #apli{
-                img: url()
+            margin: 5px;
             }
-        }
+            
+
+            p{
+                padding: 5px;
+            }
 
     }
 
-    #main{
-
+    #content-frame{
+        display:flex;
+        width:95%;
+        background-color: $secondarycolor;
     }
+}
 }
 
