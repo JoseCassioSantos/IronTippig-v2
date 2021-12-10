@@ -1,0 +1,43 @@
+@import '../sass/colors';
+@import '../sass/fonts';
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: $primarycolor;
+    #header{
+        font-family: 'Roboto', sans-serif;
+        color: $textcolor1;
+        border-bottom: 1px solid $secondarycolor;
+        padding: 5px;
+
+        span p{
+            display: inline;
+            border-bottom: 2px solid $quartycolor;
+        }
+
+    }
+    #menu {
+
+        display:inline;
+        width: 20px;
+        a{
+            text-decoration: none;
+            color: $textcolor1;
+            font-family: 'Roboto', sans-serif;
+            
+            #apli{
+                img: url()
+            }
+        }
+
+    }
+
+    #main{
+
+    }
+}
+
