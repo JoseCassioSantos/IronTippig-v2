@@ -8,16 +8,17 @@ textarea{
     padding: 5px;
     font-weight: bold;
     background: $quartycolor ;
-    color:$textcolor2;
+    color:$textcolor1;
 
 }
 
 .btn:hover{
+  color:$textcolor2;
   background: $terciarycolor;
   cursor: pointer;
-  -webkit-transition: 1.5s;
-  -o-transition: 1.5s;
-  transition: 1.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
  
   
 }

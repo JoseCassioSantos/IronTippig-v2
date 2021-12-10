@@ -179,13 +179,14 @@ textarea {
   padding: 5px;
   font-weight: bold;
   background: #5b5bd4;
-  color: #161614;
+  color: #ffffff;
 }
 
 .btn:hover {
+  color: #161614;
   background: #5b6569;
   cursor: pointer;
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 /*# sourceMappingURL=main.css.map */
