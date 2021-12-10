@@ -1,0 +1,45 @@
+@import 'colors';
+@import 'fonts';
+
+
+body{
+    
+#links{
+      
+    height: 200px;
+    
+    #lin-cont{
+
+        display: flex;
+      
+     a{
+      
+        text-decoration: none;
+        color: lightcyan;
+        font-size: 10pt;
+        text-shadow: 1px 1px 5px black;
+        text-align: center;
+
+        p{
+            padding: 5px;
+              
+
+            &:hover{
+                background: $terciarycolor;
+                padding-left: 1px ;
+            }
+        }
+
+        img{
+            height: 40px;
+            width: 35px;
+
+        }   
+        
+      }
+        
+    } 
+  }
+
+}
+

@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
-  margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
   display: inline;
-  background: #140f0a;
+  background: #1b2027;
 }
 
 body #header {
@@ -16,7 +15,7 @@ body #header {
   width: 100%;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  border-bottom: 1px solid #646464;
+  border-bottom: 1px solid #2d2e2e;
   padding: 5px;
 }
 
@@ -31,26 +30,43 @@ body #content {
   display: flex;
 }
 
-body #content #menu {
-  height: 500px;
+body #content .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 550px;
   width: 150px;
-  background-color: #5b5bd4;
-  padding: 5px;
+  background-color: #2d2e2e;
+  border: 1px solid #1b2027;
+  margin: 0;
+  resize: horizontal;
+  overflow: hidden;
 }
 
-body #content #menu a {
+body #content .menu a:first-child {
+  margin-top: 1rem;
+}
+
+body #content .menu a {
   text-decoration: none;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  border: 1px solid black;
+  padding: 10px 10px;
 }
 
-body #content #menu a .icon {
+body #content .menu a:hover {
+  background: #5b6569;
+  border-left: 2px solid #5b5bd4;
+}
+
+body #content .menu .icon {
+  -webkit-filter: invert(1);
+          filter: invert(1);
   height: 20px;
-}
-
-body #content #menu a:hover {
-  background: #646464;
 }
 
 body #content #content-frame {
@@ -58,6 +74,37 @@ body #content #content-frame {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  background-color: #646464;
+  background-color: #2d2e2e;
+}
+
+#links {
+  height: 200px;
+}
+
+#links #lin-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#links #lin-cont a {
+  text-decoration: none;
+  color: lightcyan;
+  font-size: 8pt;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+}
+
+#links #lin-cont a p {
+  padding: 10px;
+}
+
+#links #lin-cont a p:hover {
+  background: #646464;
+}
+
+#links #lin-cont a img {
+  height: 40px;
+  width: 35px;
 }
 /*# sourceMappingURL=main.css.map */
