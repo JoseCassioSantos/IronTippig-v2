@@ -47,7 +47,7 @@ body #content .menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 550px;
+  height: 80vh;
   width: 40px;
   background-color: #2d2e2e;
   border: 1px solid #1b2027;
@@ -59,8 +59,9 @@ body #content .menu {
 }
 
 body #content .menu:hover {
-  height: 550px;
   width: 150px;
+  -webkit-box-shadow: 0px 1px 10px black;
+          box-shadow: 0px 1px 10px black;
 }
 
 body #content .menu:hover a {
@@ -154,7 +155,23 @@ body #content #content-frame {
   position: absolute;
   background: #5b5bd4;
   border-bottom: 3px solid #1b2027;
-  margin-left: 95%;
+  margin-top: 2%;
+  margin-left: 90%;
+  -webkit-box-shadow: 2px 5px 10px #1b2027;
+          box-shadow: 2px 5px 10px #1b2027;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 body #links {

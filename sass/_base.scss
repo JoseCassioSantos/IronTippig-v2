@@ -41,7 +41,7 @@ body {
     .menu {
       display: flex;
       flex-direction: column;
-      height: 550px;
+      height: 80vh;
       width: 40px;
       background-color: $secondarycolor;
       border: 1px solid $primarycolor;
@@ -54,8 +54,9 @@ body {
       
     
       &:hover{
-      height: 550px;
+      
       width: 150px;
+      box-shadow: 0px 1px 10px black;
       
       
       a{
@@ -174,7 +175,15 @@ body {
     position: absolute;
     background: $quartycolor;
     border-bottom: 3px solid $primarycolor;
-    margin-left: 95%;
+    margin-top: 2%;
+    margin-left: 90%;
+    box-shadow: 2px 5px 10px $primarycolor;
 
 
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
