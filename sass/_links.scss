@@ -1,5 +1,3 @@
-@import 'colors';
-@import 'fonts';
 
 
 body{
@@ -26,7 +24,7 @@ body{
 
             &:hover{
                 background: $terciarycolor;
-                padding-left: 1px ;
+                padding: 5px ;
             }
         }
 

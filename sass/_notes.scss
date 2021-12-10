@@ -1,0 +1,23 @@
+textarea{
+    color: $textcolor2;
+    font-weight: bolder;
+}
+
+.btn{
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    background: $quartycolor ;
+    color:$textcolor2;
+
+}
+
+.btn:hover{
+  background: $terciarycolor;
+  cursor: pointer;
+  -webkit-transition: 1.5s;
+  -o-transition: 1.5s;
+  transition: 1.5s;
+ 
+  
+}

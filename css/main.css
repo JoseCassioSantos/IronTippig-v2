@@ -3,6 +3,10 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  padding: 2px;
+  color: #ffffff;
+  margin: 0;
 }
 
 body {
@@ -11,16 +15,21 @@ body {
 }
 
 body #header {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
+  height: 35px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   border-bottom: 1px solid #2d2e2e;
-  padding: 5px;
+  margin: 0;
 }
 
-body #header span p {
-  display: inline;
+body #header p {
   border-bottom: 2px solid #5b5bd4;
 }
 
@@ -77,34 +86,106 @@ body #content #content-frame {
   background-color: #2d2e2e;
 }
 
-#links {
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px #5b6569;
+          box-shadow: inset 0 0 5px #5b6569;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5b5bd4;
+}
+
+.under {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background: #5b5bd4;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(http://source.unsplash.com/random) no-repeat;
+  background-size: cover;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overhora {
+  color: aliceblue;
+  padding-top: 30%;
+  padding-left: 1%;
+  text-shadow: 1px 2px 5px black;
+  font-size: 70pt;
+}
+
+#overdata {
+  display: block;
+  color: aliceblue;
+  padding-left: 2%;
+  text-shadow: 1px 2px 5px black;
+  font-size: 20pt;
+}
+
+body #links {
   height: 200px;
 }
 
-#links #lin-cont {
+body #links #lin-cont {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#links #lin-cont a {
+body #links #lin-cont a {
   text-decoration: none;
   color: lightcyan;
-  font-size: 8pt;
+  font-size: 10pt;
   text-shadow: 1px 1px 5px black;
   text-align: center;
 }
 
-#links #lin-cont a p {
-  padding: 10px;
+body #links #lin-cont a p {
+  padding: 5px;
 }
 
-#links #lin-cont a p:hover {
-  background: #646464;
+body #links #lin-cont a p:hover {
+  background: #5b6569;
+  padding: 5px;
 }
 
-#links #lin-cont a img {
+body #links #lin-cont a img {
   height: 40px;
   width: 35px;
+}
+
+textarea {
+  color: #161614;
+  font-weight: bolder;
+}
+
+.btn {
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+  background: #5b5bd4;
+  color: #161614;
+}
+
+.btn:hover {
+  background: #5b6569;
+  cursor: pointer;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 /*# sourceMappingURL=main.css.map */
