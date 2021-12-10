@@ -14,7 +14,7 @@ body {
 body #header {
   display: block;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   border-bottom: 1px solid #646464;
   padding: 5px;
@@ -33,26 +33,31 @@ body #content {
 
 body #content #menu {
   height: 500px;
-  width: 100px;
+  width: 150px;
   background-color: #5b5bd4;
+  padding: 5px;
 }
 
 body #content #menu a {
   text-decoration: none;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  margin: 5px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid black;
 }
 
-body #content #menu p {
-  padding: 5px;
+body #content #menu a .icon {
+  height: 20px;
+}
+
+body #content #menu a:hover {
+  background: #646464;
 }
 
 body #content #content-frame {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 95%;
+  width: 100%;
   background-color: #646464;
 }
 /*# sourceMappingURL=main.css.map */
