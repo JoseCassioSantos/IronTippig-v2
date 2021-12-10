@@ -42,25 +42,40 @@ body {
       display: flex;
       flex-direction: column;
       height: 550px;
-      width: 150px;
+      width: 40px;
       background-color: $secondarycolor;
       border: 1px solid $primarycolor;
       margin: 0;
       resize: horizontal;
       overflow: hidden;
-    
+      transition:  0s;
+      
 
+      
+    
+      &:hover{
+      height: 550px;
+      width: 150px;
+      
+      
+      a{
+        padding: 10px 10px ;
+        color: $textcolor1;
+      }
+        }
       
       a:first-child{
         margin-top: 1rem;
+
       } 
+     
 
       a {
-        
+        padding: 0px 10px ;
         text-decoration: none;
-        color: $textcolor1;
+        color: transparent;
         font-family: "Roboto", sans-serif;
-        padding: 10px 10px ;
+       
         
         
 
@@ -127,8 +142,10 @@ body {
   bottom: 0;
   background: url(http://source.unsplash.com/random) no-repeat;
   background-size: cover;
-  z-index: 2; 
-  cursor: pointer;}
+  z-index: 2;
+  overflow: hidden;
+  cursor: pointer;
+}
 
   #overhora{
     color: aliceblue;
@@ -150,5 +167,14 @@ body {
   font-size: 20pt;
   
   
+
+}
+
+.logo2{
+    position: absolute;
+    background: $quartycolor;
+    border-bottom: 3px solid $primarycolor;
+    margin-left: 95%;
+
 
 }

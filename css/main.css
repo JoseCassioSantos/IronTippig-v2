@@ -48,12 +48,24 @@ body #content .menu {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 550px;
-  width: 150px;
+  width: 40px;
   background-color: #2d2e2e;
   border: 1px solid #1b2027;
   margin: 0;
   resize: horizontal;
   overflow: hidden;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+body #content .menu:hover {
+  height: 550px;
+  width: 150px;
+}
+
+body #content .menu:hover a {
+  padding: 10px 10px;
+  color: #ffffff;
 }
 
 body #content .menu a:first-child {
@@ -61,10 +73,10 @@ body #content .menu a:first-child {
 }
 
 body #content .menu a {
+  padding: 0px 10px;
   text-decoration: none;
-  color: #ffffff;
+  color: transparent;
   font-family: "Roboto", sans-serif;
-  padding: 10px 10px;
 }
 
 body #content .menu a:hover {
@@ -118,6 +130,7 @@ body #content #content-frame {
   background: url(http://source.unsplash.com/random) no-repeat;
   background-size: cover;
   z-index: 2;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -135,6 +148,13 @@ body #content #content-frame {
   padding-left: 2%;
   text-shadow: 1px 2px 5px black;
   font-size: 20pt;
+}
+
+.logo2 {
+  position: absolute;
+  background: #5b5bd4;
+  border-bottom: 3px solid #1b2027;
+  margin-left: 95%;
 }
 
 body #links {
