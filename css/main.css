@@ -33,6 +33,10 @@ body #header p {
   border-bottom: 2px solid #5b5bd4;
 }
 
+body #header a {
+  text-decoration: none;
+}
+
 body #content {
   display: -webkit-box;
   display: -ms-flexbox;
