@@ -230,4 +230,36 @@ textarea {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
+body h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+body .contact {
+  text-align: center;
+}
+
+body .contact a {
+  background-color: #5b6569 opacity 0.5;
+}
+
+.perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  width: 10%;
+  margin: auto;
+  border: 5px solid #5b5bd4;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding: 5px;
+}
 /*# sourceMappingURL=main.css.map */
