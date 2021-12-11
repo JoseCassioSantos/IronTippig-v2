@@ -60,8 +60,8 @@ body #content .menu {
   overflow: hidden;
   -webkit-transition: 0s;
   transition: 0s;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
 }
 
 body #content .menu:hover {
@@ -84,8 +84,8 @@ body #content .menu a {
   text-decoration: none;
   color: transparent;
   font-family: "Roboto", sans-serif;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
 }
 
 body #content .menu a:hover {
