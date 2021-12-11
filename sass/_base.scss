@@ -81,9 +81,6 @@ body {
         transition-delay:  0.3s;
         
         
-       
-        
-        
 
         &:hover{
             background: $terciarycolor;
@@ -192,4 +189,10 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+}
+
+#txtnotas{
+  height: 300px;
+  width: 98%;
+  margin: 2% 1%;
 }
