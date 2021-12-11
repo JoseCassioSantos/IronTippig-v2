@@ -41,6 +41,7 @@ body{
             &:hover{
                 border-bottom:  2px solid $quartycolor;
                 background: $terciarycolor;
+                transition: 0.5s;
             }
         
         }

@@ -54,14 +54,11 @@ body {
       transition:  0s;
       transition-delay: 0.3s;
       
-
-      
     
       &:hover{
       
       width: 150px;
       box-shadow: 0px 1px 10px black;
-      
       
       
       a{
@@ -81,7 +78,9 @@ body {
         text-decoration: none;
         color: transparent;
         font-family: "Roboto", sans-serif;
-        transition-delay: 0.3s;
+        transition-delay:  0.3s;
+        
+        
        
         
         
