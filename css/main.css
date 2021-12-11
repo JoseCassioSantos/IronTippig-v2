@@ -233,18 +233,30 @@ textarea {
 
 body h1 {
   text-align: center;
-  padding: 20px;
+}
+
+body h2, body h3, body h4, body h5, body h6 {
+  text-align: center;
+  color: #5b6569;
 }
 
 body .contact {
   text-align: center;
+  margin: 10px;
 }
 
 body .contact a {
-  background-color: #5b6569 opacity 0.5;
+  text-decoration: none;
+  background-color: #2d2e2e;
+  padding: 5px;
+  border-radius: 10px;
 }
 
-.perfil {
+body .contact a:hover {
+  background-color: #5b5bd4;
+}
+
+body .perfil {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

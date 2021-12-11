@@ -1,35 +1,56 @@
+
+
 body{
 
-    h1{
+    h1, {
         text-align: center;
-        padding: 20px;
-    }
+        
+    } 
+
+
+    h2, h3, h4, h5, h6{
+        text-align: center;
+        color: $terciarycolor
+    } 
+
     .contact{
         
-    text-align: center;
+        text-align: center;
+        margin: 10px;
+    
+        a{
+            text-decoration: none;
+            background-color: $secondarycolor;
+            padding: 5px ;
+            border-radius: 10px;
 
-    a{
-        text-decoration: none;
-        background-color: $secondary;
-    
+            &:hover{
+                background-color: $quartycolor;
+            }
+        
+        }
+
+
     }
+
+    .perfil{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 10%;
+        margin: auto;
+        border: 5px solid $quartycolor;
+        box-sizing: content-box;
+        padding: 5px ;
     
+        
+    }
 
        
 }
 
 
-.perfil{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 10%;
-    margin: auto;
-    border: 5px solid $quartycolor;
-    box-sizing: content-box;
-    padding: 5px ;
 
-    
-}
