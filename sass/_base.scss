@@ -52,6 +52,7 @@ body {
       resize: horizontal;
       overflow: hidden;
       transition:  0s;
+      transition-delay: 0.5s;
       
 
       
@@ -60,6 +61,7 @@ body {
       
       width: 150px;
       box-shadow: 0px 1px 10px black;
+      
       
       
       a{
@@ -79,6 +81,7 @@ body {
         text-decoration: none;
         color: transparent;
         font-family: "Roboto", sans-serif;
+        transition-delay: 0.5s;
        
         
         
@@ -86,6 +89,7 @@ body {
         &:hover{
             background: $terciarycolor;
             border-left: 2px solid $quartycolor;
+            
         }
 
         
