@@ -149,6 +149,15 @@ body {
   z-index: 2;
   overflow: hidden;
   cursor: pointer;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+
+
+  @keyframes move {
+   from { background-size: 50% ;}
+   to {background-size: 100%;}
+  }
 }
 
   #overhora{

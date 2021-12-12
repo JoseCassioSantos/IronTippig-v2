@@ -141,6 +141,30 @@ body #content #content-frame {
   z-index: 2;
   overflow: hidden;
   cursor: pointer;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes move {
+  from {
+    background-size: 50%;
+  }
+  to {
+    background-size: 100%;
+  }
+}
+
+@keyframes move {
+  from {
+    background-size: 50%;
+  }
+  to {
+    background-size: 100%;
+  }
 }
 
 #overhora {
