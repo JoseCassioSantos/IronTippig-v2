@@ -136,6 +136,7 @@ body {
 }
 
 #overlay {
+
   position: fixed; 
   display: none; 
   width: 100%; 
@@ -152,11 +153,12 @@ body {
   animation-name: move;
   animation-duration: 1s;
   animation-iteration-count: 1;
+  
 
 
   @keyframes move {
-   from { background-size: 50% ;}
-   to {background-size: 100%;}
+   from { background-size: 0% ;}
+   to {background-size: 100% ;}
   }
 }
 
@@ -190,7 +192,7 @@ body {
     margin-top: 2%;
     margin-left: 90%;
     box-shadow: 2px 5px 10px $primarycolor;
-
+   
 
 }
 

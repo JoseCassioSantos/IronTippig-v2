@@ -151,7 +151,7 @@ body #content #content-frame {
 
 @-webkit-keyframes move {
   from {
-    background-size: 50%;
+    background-size: 0%;
   }
   to {
     background-size: 100%;
@@ -160,7 +160,7 @@ body #content #content-frame {
 
 @keyframes move {
   from {
-    background-size: 50%;
+    background-size: 0%;
   }
   to {
     background-size: 100%;
