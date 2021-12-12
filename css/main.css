@@ -229,8 +229,8 @@ body #content #content-frame {
           box-shadow: 2px 5px 10px #1b2027;
   -webkit-animation-name: move2;
           animation-name: move2;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-in-out;
