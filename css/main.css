@@ -147,6 +147,8 @@ body #content #content-frame {
           animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 @-webkit-keyframes move {
@@ -173,6 +175,32 @@ body #content #content-frame {
   padding-left: 1%;
   text-shadow: 1px 2px 5px black;
   font-size: 70pt;
+  -webkit-animation-name: move2;
+          animation-name: move2;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes move2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes move2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #overdata {
@@ -181,6 +209,14 @@ body #content #content-frame {
   padding-left: 2%;
   text-shadow: 1px 2px 5px black;
   font-size: 20pt;
+  -webkit-animation-name: move2;
+          animation-name: move2;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 .logo2 {
@@ -191,6 +227,14 @@ body #content #content-frame {
   margin-left: 90%;
   -webkit-box-shadow: 2px 5px 10px #1b2027;
           box-shadow: 2px 5px 10px #1b2027;
+  -webkit-animation-name: move2;
+          animation-name: move2;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 footer {
