@@ -1,3 +1,12 @@
+/*
+$primarycolor: #1b2027;
+$secondarycolor: #2d2e2e;
+$terciarycolor: #5b6569;
+$quartycolor: #5b5bd4;
+$quintycolor: #04d361;
+$textcolor1: #ffffff;
+$textcolor2: #161614;
+*/
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
@@ -5,13 +14,14 @@
           box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   padding: 2px;
-  color: #ffffff;
+  font-weight: bolder;
+  color: #000000;
   margin: 0;
 }
 
 body {
   display: inline;
-  background: #1b2027;
+  background: #f6f7f8;
 }
 
 body #header {
@@ -24,13 +34,13 @@ body #header {
   width: 100%;
   height: 35px;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
-  border-bottom: 1px solid #2d2e2e;
+  color: #000000;
+  border-bottom: 1px solid #818181;
   margin: 0;
 }
 
 body #header p {
-  border-bottom: 2px solid #5b5bd4;
+  border-bottom: 2px solid #3582e7;
 }
 
 body #header a {
@@ -53,8 +63,8 @@ body #content .menu {
           flex-direction: column;
   height: 80vh;
   width: 40px;
-  background-color: #2d2e2e;
-  border: 1px solid #1b2027;
+  background-color: #818181;
+  border: 1px solid #f6f7f8;
   margin: 0;
   resize: horizontal;
   overflow: hidden;
@@ -72,7 +82,7 @@ body #content .menu:hover {
 
 body #content .menu:hover a {
   padding: 10px 10px;
-  color: #ffffff;
+  color: #000000;
 }
 
 body #content .menu a:first-child {
@@ -89,8 +99,8 @@ body #content .menu a {
 }
 
 body #content .menu a:hover {
-  background: #5b6569;
-  border-left: 2px solid #5b5bd4;
+  background: #6b99ce;
+  border-left: 2px solid #3582e7;
 }
 
 body #content .menu .icon {
@@ -104,7 +114,7 @@ body #content #content-frame {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  background-color: #2d2e2e;
+  background-color: #818181;
 }
 
 ::-webkit-scrollbar {
@@ -112,19 +122,19 @@ body #content #content-frame {
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 5px #5b6569;
-          box-shadow: inset 0 0 5px #5b6569;
+  -webkit-box-shadow: inset 0 0 5px #6b99ce;
+          box-shadow: inset 0 0 5px #6b99ce;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #5b5bd4;
+  background: #3582e7;
 }
 
 .under {
   display: inline-block;
   width: 100%;
   vertical-align: middle;
-  background: #5b5bd4;
+  background: #3582e7;
 }
 
 #overlay {
@@ -141,6 +151,32 @@ body #content #content-frame {
   z-index: 2;
   overflow: hidden;
   cursor: pointer;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes move {
+  from {
+    background-size: 0%;
+  }
+  to {
+    background-size: 100%;
+  }
+}
+
+@keyframes move {
+  from {
+    background-size: 0%;
+  }
+  to {
+    background-size: 100%;
+  }
 }
 
 #overhora {
@@ -149,6 +185,32 @@ body #content #content-frame {
   padding-left: 1%;
   text-shadow: 1px 2px 5px black;
   font-size: 70pt;
+  -webkit-animation-name: move2;
+          animation-name: move2;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes move2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes move2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #overdata {
@@ -157,16 +219,32 @@ body #content #content-frame {
   padding-left: 2%;
   text-shadow: 1px 2px 5px black;
   font-size: 20pt;
+  -webkit-animation-name: move2;
+          animation-name: move2;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 .logo2 {
   position: absolute;
-  background: #5b5bd4;
-  border-bottom: 3px solid #1b2027;
+  background: #3582e7;
+  border-bottom: 3px solid #f6f7f8;
   margin-top: 2%;
   margin-left: 90%;
-  -webkit-box-shadow: 2px 5px 10px #1b2027;
-          box-shadow: 2px 5px 10px #1b2027;
+  -webkit-box-shadow: 2px 5px 10px #f6f7f8;
+          box-shadow: 2px 5px 10px #f6f7f8;
+  -webkit-animation-name: move2;
+          animation-name: move2;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 footer {
@@ -202,7 +280,6 @@ body #links #lin-cont a {
   text-decoration: none;
   color: lightcyan;
   font-size: 10pt;
-  text-shadow: 1px 1px 5px black;
   text-align: center;
 }
 
@@ -211,7 +288,7 @@ body #links #lin-cont a p {
 }
 
 body #links #lin-cont a p:hover {
-  background: #5b6569;
+  background: #6b99ce;
   padding: 5px;
 }
 
@@ -221,7 +298,7 @@ body #links #lin-cont a img {
 }
 
 textarea {
-  color: #161614;
+  color: #030303;
   font-weight: bolder;
 }
 
@@ -229,13 +306,13 @@ textarea {
   border: none;
   padding: 5px;
   font-weight: bold;
-  background: #5b5bd4;
-  color: #ffffff;
+  background: #3582e7;
+  color: #000000;
 }
 
 .btn:hover {
-  color: #161614;
-  background: #5b6569;
+  color: #030303;
+  background: #6b99ce;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -247,7 +324,7 @@ body h1 {
 
 body h2, body h3, body h4, body h6 {
   text-align: center;
-  color: #5b6569;
+  color: #6b99ce;
 }
 
 body .contact {
@@ -257,7 +334,7 @@ body .contact {
 
 body .contact a {
   text-decoration: none;
-  background-color: #2d2e2e;
+  background-color: #818181;
   padding: 5px;
   font-size: 15pt;
 }
@@ -278,8 +355,8 @@ body .contact a img {
 }
 
 body .contact a:hover {
-  border-bottom: 2px solid #5b5bd4;
-  background: #5b6569;
+  border-bottom: 2px solid #3582e7;
+  background: #6b99ce;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -297,7 +374,7 @@ body .perfil {
   border-radius: 50%;
   width: 10%;
   margin: auto;
-  border: 5px solid #5b6569;
+  border: 5px solid #6b99ce;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   padding: 5px;
@@ -306,7 +383,7 @@ body .perfil {
 }
 
 body .perfil:hover {
-  border: 5px solid #5b5bd4;
+  border: 5px solid #04d361;
   width: 12%;
 }
 
