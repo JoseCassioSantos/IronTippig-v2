@@ -14,6 +14,7 @@ $textcolor2: #161614;
           box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   padding: 2px;
+  font-weight: bolder;
   color: #000000;
   margin: 0;
 }
@@ -39,7 +40,7 @@ body #header {
 }
 
 body #header p {
-  border-bottom: 2px solid #5b8fd4;
+  border-bottom: 2px solid #3582e7;
 }
 
 body #header a {
@@ -98,8 +99,8 @@ body #content .menu a {
 }
 
 body #content .menu a:hover {
-  background: #498ad4;
-  border-left: 2px solid #5b8fd4;
+  background: #6b99ce;
+  border-left: 2px solid #3582e7;
 }
 
 body #content .menu .icon {
@@ -121,19 +122,19 @@ body #content #content-frame {
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 5px #498ad4;
-          box-shadow: inset 0 0 5px #498ad4;
+  -webkit-box-shadow: inset 0 0 5px #6b99ce;
+          box-shadow: inset 0 0 5px #6b99ce;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #5b8fd4;
+  background: #3582e7;
 }
 
 .under {
   display: inline-block;
   width: 100%;
   vertical-align: middle;
-  background: #5b8fd4;
+  background: #3582e7;
 }
 
 #overlay {
@@ -230,7 +231,7 @@ body #content #content-frame {
 
 .logo2 {
   position: absolute;
-  background: #5b8fd4;
+  background: #3582e7;
   border-bottom: 3px solid #f6f7f8;
   margin-top: 2%;
   margin-left: 90%;
@@ -279,7 +280,6 @@ body #links #lin-cont a {
   text-decoration: none;
   color: lightcyan;
   font-size: 10pt;
-  text-shadow: 1px 1px 5px black;
   text-align: center;
 }
 
@@ -288,7 +288,7 @@ body #links #lin-cont a p {
 }
 
 body #links #lin-cont a p:hover {
-  background: #498ad4;
+  background: #6b99ce;
   padding: 5px;
 }
 
@@ -306,13 +306,13 @@ textarea {
   border: none;
   padding: 5px;
   font-weight: bold;
-  background: #5b8fd4;
+  background: #3582e7;
   color: #000000;
 }
 
 .btn:hover {
   color: #030303;
-  background: #498ad4;
+  background: #6b99ce;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -324,7 +324,7 @@ body h1 {
 
 body h2, body h3, body h4, body h6 {
   text-align: center;
-  color: #498ad4;
+  color: #6b99ce;
 }
 
 body .contact {
@@ -355,8 +355,8 @@ body .contact a img {
 }
 
 body .contact a:hover {
-  border-bottom: 2px solid #5b8fd4;
-  background: #498ad4;
+  border-bottom: 2px solid #3582e7;
+  background: #6b99ce;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -374,7 +374,7 @@ body .perfil {
   border-radius: 50%;
   width: 10%;
   margin: auto;
-  border: 5px solid #498ad4;
+  border: 5px solid #6b99ce;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   padding: 5px;
