@@ -225,4 +225,9 @@ footer{
   height: 300px;
   width: 98%;
   margin: 2% 1%;
+    &:focus{
+      outline: none;
+      color: $quartycolor;
+    }
 }
+

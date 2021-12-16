@@ -267,6 +267,11 @@ footer {
   margin: 2% 1%;
 }
 
+#txtnotas:focus {
+  outline: none;
+  color: #5b5bd4;
+}
+
 body #links {
   height: 200px;
 }
