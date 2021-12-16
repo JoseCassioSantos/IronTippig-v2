@@ -45,7 +45,7 @@ body {
       display: flex;
       flex-direction: column;
       height: 80vh;
-      width: 40px;
+      width: 45px;
       background-color: $secondarycolor;
       border: 1px solid $primarycolor;
       margin: 0;
@@ -70,6 +70,7 @@ body {
       a:first-child{
         margin-top: 1rem;
 
+
       } 
      
 
@@ -79,7 +80,7 @@ body {
         color: transparent;
         font-family: "Roboto", sans-serif;
         transition-delay:  0.3s;
-        
+        border-left: 2px solid $secondarycolor;
         
 
         &:hover{
@@ -90,13 +91,15 @@ body {
 
         
       }
+     
 
+      
       .icon{
         filter: invert(1);
         height: 20px;
+
      }
      
-    
      
     }
 

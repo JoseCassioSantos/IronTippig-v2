@@ -62,7 +62,7 @@ body #content .menu {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 80vh;
-  width: 40px;
+  width: 45px;
   background-color: #2d2e2e;
   border: 1px solid #1b2027;
   margin: 0;
@@ -96,6 +96,7 @@ body #content .menu a {
   font-family: "Roboto", sans-serif;
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
+  border-left: 2px solid #2d2e2e;
 }
 
 body #content .menu a:hover {
