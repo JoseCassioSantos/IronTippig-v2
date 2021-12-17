@@ -221,7 +221,7 @@ footer{
     flex-direction: row;
 }
 
-#txtnotas{
+#txtnotas, #txtnotas1, #txtnotas2{
   height: 300px;
   width: 98%;
   margin: 2% 1%;
@@ -229,5 +229,12 @@ footer{
       outline: none;
       color: $quartycolor;
     }
+
+    
 }
 
+a.active{
+  color: $quartycolor;
+  background-color : $secondarycolor;
+  
+}

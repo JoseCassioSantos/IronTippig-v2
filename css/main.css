@@ -261,15 +261,20 @@ footer {
           flex-direction: row;
 }
 
-#txtnotas {
+#txtnotas, #txtnotas1, #txtnotas2 {
   height: 300px;
   width: 98%;
   margin: 2% 1%;
 }
 
-#txtnotas:focus {
+#txtnotas:focus, #txtnotas1:focus, #txtnotas2:focus {
   outline: none;
   color: #5b5bd4;
+}
+
+a.active {
+  color: #5b5bd4;
+  background-color: #2d2e2e;
 }
 
 body #links {
@@ -306,6 +311,7 @@ body #links #lin-cont a img {
 textarea {
   color: #161614;
   font-weight: bolder;
+  resize: none;
 }
 
 .btn {
