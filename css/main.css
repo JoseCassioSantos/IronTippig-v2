@@ -274,7 +274,7 @@ footer {
 
 a.active {
   color: #5b5bd4;
-  background-color: #2d2e2e;
+  text-decoration: underline;
 }
 
 body #links {
