@@ -314,7 +314,7 @@ body #links #lin-cont a img {
 }
 
 #notes {
-  height: 300px;
+  height: 290px;
   width: 100%;
   padding-top: 0;
   color: #030303;
@@ -331,7 +331,7 @@ body #links #lin-cont a img {
   margin: 0;
   padding: 0;
   border: 1px solid;
-  height: 370px;
+  height: 350px;
   width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
