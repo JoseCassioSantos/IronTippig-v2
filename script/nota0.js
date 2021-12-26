@@ -6,10 +6,11 @@ function salvar(){
      titulo = tituloN.value 
      nota = txtnotas.value 
     
+     
     
      localStorage.setItem(titulo, nota)
-  
-     document.location.reload(true)
+
+     alert('Salvo')
     
   }
   
@@ -20,14 +21,19 @@ function salvar(){
     
      titulo = tituloN.value 
      nota = txtnotas.value 
+     
+
+        localStorage.removeItem(titulo, nota)
+      
+         document.location.reload(true)
+      
     
-    
-     localStorage.removeItem(titulo, nota)
-  
-     document.location.reload(true)
+     
     
   }
-  
+
+
+
   
   
   function backlist(x){
@@ -79,5 +85,14 @@ function salvar(){
     navigator.clipboard.writeText(copyText.value);
     
     
+  }
+  
+  function novo(){
+    let txtnotas = document.getElementById('notes')
+    let tituloN = document.getElementById('titulo')
+    titulo = tituloN.value 
+     nota = txtnotas.value 
+  
+     document.location.reload(true)
   }
   
