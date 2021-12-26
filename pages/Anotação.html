@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
-    <script src="../script/nota.js"></script>
-    
-    <title>Note</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../script/nota0.js"></script>
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <h1>Anotações</h1>
-    <span class="under"></span>
-    
-    <textarea name="notas" id="txtnotas" placeholder="Notas rapidas 1" ></textarea>
-    <h4><a href="./Anotação.html" class="icon active">1</a>
-        <a href="./Anotação1.html">2</a>
-        <a href="./Anotação2.html">3</a></h4>
-    <br>
-    <button class="btn" onclick="save()">Salvar</button>
-    <button class="btn" onclick="apaga()">Apagar</button>
-    <button class="btn" onclick="copy()">Copiar</button>
-    
+ <header>
+  <h1>Notas</h1>
+ </header>
+
+ <span class="under"></span>
+<main class="content">
+  <section id="content_text">
+  <textarea id="titulo"  placeholder="Titulo"></textarea>
+ 
+  <textarea id="notes"  placeholder="Anotações"></textarea>
+  <br>
+  <button class="btn" onclick="salvar()">Salvar</button>
+  <button class="btn" onclick="apaga()">Apagar</button>
+  <button class="btn" onclick="copy()">Copiar</button>
+</section>
+
+<section id="minhaLista"></section>
+</main>
 </body>
 
 </html>

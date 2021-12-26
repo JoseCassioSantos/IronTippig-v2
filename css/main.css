@@ -261,13 +261,26 @@ footer {
           flex-direction: row;
 }
 
-#txtnotas, #txtnotas1, #txtnotas2 {
+#notes {
   height: 300px;
   width: 98%;
-  margin: 2% 1%;
+  margin: 0% 1%;
 }
 
-#txtnotas:focus, #txtnotas1:focus, #txtnotas2:focus {
+#notes:focus {
+  outline: none;
+  color: #3582e7;
+}
+
+#titulo {
+  height: 45px;
+  width: 98%;
+  margin: 0% 1%;
+  padding-bottom: 0;
+  font-size: 15pt;
+}
+
+#titulo:focus {
   outline: none;
   color: #3582e7;
 }
@@ -308,7 +321,7 @@ body #links #lin-cont a img {
   width: 35px;
 }
 
-textarea {
+textarea, #notes {
   color: #030303;
   font-weight: bolder;
   resize: none;
