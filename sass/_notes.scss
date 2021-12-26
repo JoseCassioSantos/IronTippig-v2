@@ -1,8 +1,65 @@
-textarea, #notes{
-    color: $textcolor2;
-    font-weight: bolder;
-    resize: none;
+
+.content{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  box-sizing: content-box;
 }
+
+#content_text{
+  width: 100%;
+  margin: 10px;
+  padding-top: 0;
+  
+ 
+  
+  
+}
+
+
+#notes{
+  height: 300px;
+  width: 100%;
+  padding-top: 0;
+  color: $textcolor2;
+  font-weight: bolder;
+  resize: none;
+ 
+    &:focus{
+      outline: none;
+      color: $quartycolor;
+    }
+
+    
+}
+
+
+#minhaLista{
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+#titulo{
+  height: 45px;
+  width: 100%;
+  margin: 0;
+  resize: none;
+  border-bottom: none;
+  padding-bottom: 0;
+  font-size: 15pt;
+    &:focus{
+      outline: none;
+      color: $quartycolor;
+    }
+  }
+
+
 
 .btn{
     border: none;

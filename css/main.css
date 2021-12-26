@@ -261,30 +261,6 @@ footer {
           flex-direction: row;
 }
 
-#notes {
-  height: 300px;
-  width: 98%;
-  margin: 0% 1%;
-}
-
-#notes:focus {
-  outline: none;
-  color: #3582e7;
-}
-
-#titulo {
-  height: 45px;
-  width: 98%;
-  margin: 0% 1%;
-  padding-bottom: 0;
-  font-size: 15pt;
-}
-
-#titulo:focus {
-  outline: none;
-  color: #3582e7;
-}
-
 a.active {
   color: #3582e7;
   text-decoration: underline;
@@ -321,10 +297,63 @@ body #links #lin-cont a img {
   width: 35px;
 }
 
-textarea, #notes {
+.content {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+#content_text {
+  width: 100%;
+  margin: 10px;
+  padding-top: 0;
+}
+
+#notes {
+  height: 300px;
+  width: 100%;
+  padding-top: 0;
   color: #030303;
   font-weight: bolder;
   resize: none;
+}
+
+#notes:focus {
+  outline: none;
+  color: #3582e7;
+}
+
+#minhaLista {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#titulo {
+  height: 45px;
+  width: 100%;
+  margin: 0;
+  resize: none;
+  border-bottom: none;
+  padding-bottom: 0;
+  font-size: 15pt;
+}
+
+#titulo:focus {
+  outline: none;
+  color: #3582e7;
 }
 
 .btn {
