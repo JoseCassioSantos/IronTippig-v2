@@ -35,6 +35,7 @@
 
 
 #minhaLista{
+  
   margin: 0;
   padding: 0;
   border: 1px solid;
@@ -43,6 +44,10 @@
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+
+  h6{
+    color: $textcolor1;
+  }
   
 }
 
@@ -55,6 +60,7 @@
   border-bottom: none;
   padding-bottom: 0;
   font-size: 15pt;
+  color: $textcolor2;
     &:focus{
       outline: none;
       color: $quartycolor;
