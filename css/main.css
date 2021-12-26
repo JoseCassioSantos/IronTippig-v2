@@ -330,7 +330,8 @@ body #links #lin-cont a img {
 #minhaLista {
   margin: 0;
   padding: 0;
-  border: none;
+  border: 1px solid;
+  height: 370px;
   width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -339,6 +340,7 @@ body #links #lin-cont a img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow-y: scroll;
 }
 
 #titulo {
@@ -366,6 +368,22 @@ body #links #lin-cont a img {
 
 .btn:hover {
   color: #030303;
+  background: #6b99ce;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn2 {
+  border: 1px solid;
+  padding: 5px;
+  font-weight: bold;
+  background: #f6f7f8;
+  color: #000000;
+}
+
+.btn2:hover {
+  color: #f6f7f8;
   background: #6b99ce;
   cursor: pointer;
   -webkit-transition: 0.5s;

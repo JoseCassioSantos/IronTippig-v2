@@ -54,7 +54,7 @@ function salvar(){
       let sclass = document.createAttribute('class')
       let btn = document.createElement('button')
       onclick.value ="backlist("+i+")"
-      sclass.value = "btn"
+      sclass.value = "btn2"
       btn.innerHTML = name
       btn.setAttributeNode(sclass)
       btn.setAttributeNode(onclick)
