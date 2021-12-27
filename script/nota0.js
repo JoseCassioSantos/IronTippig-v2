@@ -11,7 +11,7 @@ function salvar(){
      localStorage.setItem(titulo, nota)
 
      alert('Salvo')
-    
+     document.location.reload(true)
   }
   
   function apaga(){
