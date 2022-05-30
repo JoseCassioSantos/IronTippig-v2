@@ -1,3 +1,10 @@
+
+onload = function() {
+  document.getElementById("overlay").style.display = "block";
+
+}
+
+
 function overOn() {
     document.getElementById("overlay").style.display = "block";
     
