@@ -28,9 +28,9 @@ body {
     color: $textcolor1;
     border-bottom: 1px solid $secondarycolor;
     margin: 0;
-    background-image: url(../src/img/Junback3.png) ;
+    /*background-image: url(../src/img/Junback3.png) ;
     background-repeat: no-repeat, repeat;
-    background-size: 70pt;
+    background-size: 70pt;*/
     
     p{
       border-bottom: 2px solid $quartycolor;
@@ -137,7 +137,7 @@ body {
    display: inline-block;
    width: 100%;
    vertical-align: middle;
-   background: $quartycolor;
+   background:  linear-gradient(90deg, $quintycolor 0%, $quartycolor 35%, $secondarycolor 100%);
    
 
 }

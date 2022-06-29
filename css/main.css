@@ -38,9 +38,9 @@ body #header {
   color: #ffffff;
   border-bottom: 1px solid #2d2e2e;
   margin: 0;
-  background-image: url(../src/img/Junback3.png);
-  background-repeat: no-repeat, repeat;
-  background-size: 70pt;
+  /*background-image: url(../src/img/Junback3.png) ;
+    background-repeat: no-repeat, repeat;
+    background-size: 70pt;*/
 }
 
 body #header p {
@@ -139,7 +139,8 @@ body #content #content-frame {
   display: inline-block;
   width: 100%;
   vertical-align: middle;
-  background: #5b5bd4;
+  background: -webkit-gradient(linear, left top, right top, from(#04d361), color-stop(35%, #5b5bd4), to(#2d2e2e));
+  background: linear-gradient(90deg, #04d361 0%, #5b5bd4 35%, #2d2e2e 100%);
 }
 
 #overlay {
