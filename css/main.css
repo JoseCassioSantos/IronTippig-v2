@@ -372,7 +372,7 @@ body #links #lin-cont a img {
   border: none;
   padding: 5px;
   font-weight: bold;
-  background: linear-gradient(195deg, #5b5bd4 60%, #04d361 80%);
+  background: #5b5bd4;
   color: #ffffff;
 }
 
