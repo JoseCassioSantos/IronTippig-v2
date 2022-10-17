@@ -87,3 +87,18 @@ function tip1() {
     window.alert("Copiado")
     
   }
+
+  function tip7() {
+  
+    let copyText = document.getElementById("tip7");
+  
+    
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); 
+  
+  
+    navigator.clipboard.writeText(copyText.value);
+    
+    window.alert("Copiado")
+    
+  }
