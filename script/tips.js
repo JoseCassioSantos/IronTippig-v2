@@ -58,9 +58,24 @@ function tip1() {
     
   }
 
-  function tip4() {
+  function tip5() {
   
     let copyText = document.getElementById("tip5");
+  
+    
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); 
+  
+  
+    navigator.clipboard.writeText(copyText.value);
+    
+    window.alert("Copiado")
+    
+  }
+
+  function tip6() {
+  
+    let copyText = document.getElementById("tip6");
   
     
     copyText.select();
