@@ -6,7 +6,6 @@ function salvar(){
      titulo = tituloN.value 
      nota = txtnotas.value 
     
-     
     
      localStorage.setItem(titulo, nota)
 
