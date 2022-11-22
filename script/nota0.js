@@ -9,8 +9,22 @@ function salvar(){
     
      localStorage.setItem(titulo, nota)
 
-     alert('Salvo')
-     document.location.reload(true)
+
+    txtSave = document.querySelector("p#restxt")
+    console.log(txtSave.style.display = "block")
+    console.log(txtSave.style.background = "#bdd39d")
+    console.log(txtSave.innerHTML = "Conteudo salvo")
+
+    setTimeout(() =>{
+      console.log(txtSave.style.display = "none")
+    }, 3000);
+
+    
+
+     //alert('Salvo')
+
+    
+    
   }
   
   function apaga(){
@@ -24,7 +38,20 @@ function salvar(){
 
         localStorage.removeItem(titulo, nota)
       
-         document.location.reload(true)
+         
+        txtSave = document.querySelector("p#restxt")
+        console.log(txtSave.style.display = "block")
+        console.log(txtSave.style.background = "#eea0a0")
+        console.log(txtSave.innerHTML = "Conteudo apagado")
+    
+        setTimeout(() =>{
+          console.log(txtSave.style.display = "none")
+          document.location.reload(true)
+        }, 2000);
+    
+        
+        
+        
       
     
      
@@ -81,6 +108,15 @@ function salvar(){
   
   
     navigator.clipboard.writeText(copyText.value);
+
+    txtSave = document.querySelector("p#restxt")
+        console.log(txtSave.style.display = "block")
+        console.log(txtSave.style.background = "#c7d9e7")
+        console.log(txtSave.innerHTML = "Conteudo Copiado")
+    
+        setTimeout(() =>{
+          console.log(txtSave.style.display = "none")
+        }, 2000);
     
     
   }
