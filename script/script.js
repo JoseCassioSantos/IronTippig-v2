@@ -80,7 +80,6 @@ function full(){
       }
 
 
-
 window.addEventListener("contextmenu", (evento) => {
   evento.preventDefault();
 
