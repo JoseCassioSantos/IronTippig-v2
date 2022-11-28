@@ -119,7 +119,7 @@ body #content #content-frame {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(http://source.unsplash.com/random) no-repeat;
+  background: linear-gradient(90deg, #04d361 0%, #5b5bd4 35%, #2d2e2e 100%) no-repeat;
   background-size: cover;
   z-index: 2;
   overflow: hidden;
