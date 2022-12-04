@@ -1,104 +1,76 @@
-function tip1() {
-  
-    let copyText = document.getElementById("tip1");
-  
-    
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); 
-  
-  
-    navigator.clipboard.writeText(copyText.value);
-    
-    window.alert("Copiado")
-    
-  }
+tip1 = () => {
+  let copyText = document.getElementById("tip1");
 
-  function tip2() {
-  
-    let copyText = document.getElementById("tip2");
-  
-    
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); 
-  
-  
-    navigator.clipboard.writeText(copyText.value);
-    
-    window.alert("Copiado")
-    
-  }
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
 
-  function tip3() {
-  
-    let copyText = document.getElementById("tip3");
-  
-    
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); 
-  
-  
-    navigator.clipboard.writeText(copyText.value);
-    
-    window.alert("Copiado")
-    
-  }
+  navigator.clipboard.writeText(copyText.value);
 
-  function tip4() {
-  
-    let copyText = document.getElementById("tip4");
-  
-    
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); 
-  
-  
-    navigator.clipboard.writeText(copyText.value);
-    
-    window.alert("Copiado")
-    
-  }
+  window.alert("Copiado");
+};
 
-  function tip5() {
-  
-    let copyText = document.getElementById("tip5");
-  
-    
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); 
-  
-  
-    navigator.clipboard.writeText(copyText.value);
-    
-    window.alert("Copiado")
-    
-  }
+tip2 = () => {
+  let copyText = document.getElementById("tip2");
 
-  function tip6() {
-  
-    let copyText = document.getElementById("tip6");
-  
-    
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); 
-  
-  
-    navigator.clipboard.writeText(copyText.value);
-    
-    window.alert("Copiado")
-    
-  }
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
 
-  function tip7() {
-  
-    let copyText = document.getElementById("tip7");
-  
-    
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); 
-  
-  
-    navigator.clipboard.writeText(copyText.value);
-    
-    window.alert("Copiado")
-    
-  }
+  navigator.clipboard.writeText(copyText.value);
+
+  window.alert("Copiado");
+};
+
+tip3 = () => {
+  let copyText = document.getElementById("tip3");
+
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+
+  navigator.clipboard.writeText(copyText.value);
+
+  window.alert("Copiado");
+};
+
+tip4 = () => {
+  let copyText = document.getElementById("tip4");
+
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+
+  navigator.clipboard.writeText(copyText.value);
+
+  window.alert("Copiado");
+};
+
+tip5 = () => {
+  let copyText = document.getElementById("tip5");
+
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+
+  navigator.clipboard.writeText(copyText.value);
+
+  window.alert("Copiado");
+};
+
+tip6 = () => {
+  let copyText = document.getElementById("tip6");
+
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+
+  navigator.clipboard.writeText(copyText.value);
+
+  window.alert("Copiado");
+};
+
+tip7 = () => {
+  let copyText = document.getElementById("tip7");
+
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+
+  navigator.clipboard.writeText(copyText.value);
+
+  window.alert("Copiado");
+};
