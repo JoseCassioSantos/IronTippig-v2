@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,64 +10,74 @@
     <script defer src="./script/nota.js"></script>
     <script defer src="./script/script.js"></script>
     <script defer src="./script/over.js"></script>
- 
+
     <title>Iron Tipping</title>
 </head>
+
 <body>
-   
+
     <header id="header">
-        <a href="index.html"><p>Iron Tipping.</p> </a> <h5 id="hora"></h5>
+        <a href="index.html">
+            <p>Iron Tipping.</p>
+        </a>
+        <h5 id="hora"></h5>
     </header>
-<div id="content">
-    <aside class="menu" > 
-       
-           <a href="./pages/aplic.html" target="iframe_a" ><img class="icon" src="./src/icons/globalizacao.png" alt=""> Aplicações </a>
-           <a href="./pages/Anotação.html" target="iframe_a"><img class="icon" src="./src/icons/lista-de-controle.png" alt=""> Anotações </a>
-           <a href="./pages/tips.html" target="iframe_a"><img class="icon" src="./src/icons/window.png" alt=""> Comandos </a>
-           <a href="./pages/downloads.html" target="iframe_a"><img class="icon" src="./src/icons/arrow.png" alt=""> Downloads </a>
-      
-            
+    <div id="content">
+        <aside class="menu">
 
-       
-    </aside>
-    
-    <section id="content-frame">
-        <iframe src="./pages/welcome.html" name="iframe_a" height="95%" width="100%" frameborder="0" h></iframe>
-    </section>
-    <aside class="menu" >
-        
-       
-        <a href="./pages/contato.html" target="iframe_a"><img class="icon" src="./src/icons/socorro.png" alt=""> Contatos </a>
-            
- </aside>
-</div>
+            <a href="./pages/aplic.html" target="iframe_a"><img class="icon" src="./src/icons/globalizacao.png" alt="">
+                Aplicações </a>
+            <a href="./pages/Anotação.html" target="iframe_a"><img class="icon" src="./src/icons/lista-de-controle.png"
+                    alt=""> Anotações </a>
+            <a href="./pages/tips.html" target="iframe_a"><img class="icon" src="./src/icons/window.png" alt="">
+                Comandos </a>
+            <a href="./pages/downloads.html" target="iframe_a"><img class="icon" src="./src/icons/arrow.png" alt="">
+                Downloads </a>
 
-<div id="overlay" onclick="overOff()">
-    <div class="logo2">
-        <p id="iron">Iron</p>
-        <p id="tipping">Tipping</p>
+
+
+
+        </aside>
+
+        <section id="content-frame">
+            <iframe src="./pages/welcome.html" name="iframe_a" height="95%" width="100%" frameborder="0" h></iframe>
+        </section>
+        <aside class="menu">
+
+
+            <a href="./pages/contato.html" target="iframe_a"><img class="icon" src="./src/icons/socorro.png" alt="">
+                Contatos </a>
+
+        </aside>
     </div>
 
-    <div id="overhora"></div>
-    <div id="overdata"></div>
+    <div id="overlay" onclick="overOff()">
+        <div class="logo2">
+            <p id="iron">Iron</p>
+            <p id="tipping">Tipping</p>
+        </div>
 
-</div>
+        <div id="overhora"></div>
+        <div id="overdata"></div>
+
+    </div>
 
 
 
-<footer>
+    <footer>
 
-    <button class="btn" onclick="overOn()">Relógio</button>
-    <button id="btnfull" class="btn" onclick="full()">Tela Cheia</button>
-    <button id="btnffull" class="btn" onclick="nfull()" style="display: none;">Fechar Tela Cheia</button>
-    
-    
-    <span class="infor">
-        <p>ver.2.0.1</p>
-    </span>
+        <button class="btn" onclick="overOn()">Relógio</button>
+        <button id="btnfull" class="btn" onclick="full()">Tela Cheia</button>
+        <button id="btnffull" class="btn" onclick="nfull()" style="display: none;">Fechar Tela Cheia</button>
 
-</footer>
+
+        <span class="infor">
+            <p>ver.2.0.1</p>
+        </span>
+
+    </footer>
 
 
 </body>
+
 </html>

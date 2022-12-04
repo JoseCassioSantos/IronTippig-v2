@@ -2,14 +2,14 @@
 @import "../sass/fonts";
 
 * {
- box-sizing: border-box ;
- font-family: 'Roboto', sans-serif; 
- padding: 2px;
- font-weight: bolder;
- color: $textcolor1;
- margin: 0;
- 
-  
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  padding: 2px;
+  font-weight: bolder;
+  color: $textcolor1;
+  margin: 0;
+
+
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
 
   #header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     width: 100%;
     height: 35px;
@@ -28,23 +28,24 @@ body {
     color: $textcolor2;
     border-bottom: 1px solid $secondarycolor;
     margin: 0;
-    background-image: url(../src/img/Copa.png) ;
+    background-image: url(../src/img/Copa.png);
     background-repeat: no-repeat, repeat;
     background-size: 70pt;
-    
-    p{
+
+    p {
       border-bottom: 2px solid $quartycolor;
-      
+
     }
-    a{
-        text-decoration: none;
+
+    a {
+      text-decoration: none;
     }
 
   }
 
   #content {
     display: flex;
-    
+
     .menu {
       display: flex;
       flex-direction: column;
@@ -55,56 +56,56 @@ body {
       margin: 0;
       resize: horizontal;
       overflow: hidden;
-      transition:  0s;
+      transition: 0s;
       transition-delay: 0.3s;
-      
-    
-      &:hover{
-      
-      width: 150px;
-      box-shadow: 0px 1px 10px black;
-      
-      
-      a{
-        padding: 10px 10px ;
-        color: $textcolor1;
-      }
+
+
+      &:hover {
+
+        width: 150px;
+        box-shadow: 0px 1px 10px black;
+
+
+        a {
+          padding: 10px 10px;
+          color: $textcolor1;
         }
-      
-      a:first-child{
+      }
+
+      a:first-child {
         margin-top: 1rem;
 
 
-      } 
-     
+      }
+
 
       a {
-        padding: 0px 10px ;
+        padding: 0px 10px;
         text-decoration: none;
         color: transparent;
         font-family: "Roboto", sans-serif;
-        transition-delay:  0.3s;
+        transition-delay: 0.3s;
         border-left: 2px solid $secondarycolor;
-        
 
-        &:hover{
-            background: $terciarycolor;
-            border-left: 2px solid $quartycolor;
-            
+
+        &:hover {
+          background: $terciarycolor;
+          border-left: 2px solid $quartycolor;
+
         }
 
-        
-      }
-     
 
-      
-      .icon{
+      }
+
+
+
+      .icon {
         filter: invert(1);
         height: 20px;
 
-     }
-     
-     
+      }
+
+
     }
 
     #content-frame {
@@ -112,7 +113,7 @@ body {
       width: 100%;
       background-color: $secondarycolor;
 
-      
+
     }
   }
 }
@@ -124,35 +125,35 @@ body {
 
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px $terciarycolor;
-  
+
 }
 
 ::-webkit-scrollbar-thumb {
   background: $quartycolor;
-  
+
 }
 
-.under{
-  
-   display: inline-block;
-   width: 100%;
-   vertical-align: middle;
-   background:  linear-gradient(90deg, $quintycolor 0%, $quartycolor 35%, $secondarycolor 100%);
-   
+.under {
+
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background: linear-gradient(90deg, $quintycolor 0%, $quartycolor 35%, $secondarycolor 100%);
+
 
 }
 
 #overlay {
 
-  position: fixed; 
-  display: none; 
-  width: 100%; 
+  position: fixed;
+  display: none;
+  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(90deg, $quintycolor 0%, $quartycolor 35%, $secondarycolor 100%)  no-repeat;
+  background: linear-gradient(90deg, $quintycolor 0%, $quartycolor 35%, $secondarycolor 100%) no-repeat;
   background: url(../src/img/back.jpg) no-repeat;
   background-size: cover;
   z-index: 2;
@@ -162,16 +163,21 @@ body {
   animation-duration: 1s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
-  
+
 
 
   @keyframes move {
-   from { background-size: 0% ;}
-   to {background-size: 100% ;}
+    from {
+      background-size: 0%;
+    }
+
+    to {
+      background-size: 100%;
+    }
   }
 }
 
-#overhora{
+#overhora {
   color: aliceblue;
   padding-top: 30%;
   padding-left: 1%;
@@ -184,13 +190,18 @@ body {
 
 
   @keyframes move2 {
-    from { opacity: 0 ;}
-    to {opacity: 1;}
-   }
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
 
 }
 
-#overdata{
+#overdata {
   display: block;
   color: aliceblue;
   padding-left: 2%;
@@ -200,37 +211,37 @@ body {
   animation-duration: 5s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
-  
-  
+
+
 
 }
 
-.logo2{
-    position: absolute;
-    background: $quartycolor;
-    border-bottom: 3px solid $primarycolor;
-    margin-top: 2%;
-    margin-left: 90%;
-    box-shadow: 2px 5px 10px $primarycolor;
-    animation-name: move2;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-   
+.logo2 {
+  position: absolute;
+  background: $quartycolor;
+  border-bottom: 3px solid $primarycolor;
+  margin-top: 2%;
+  margin-left: 90%;
+  box-shadow: 2px 5px 10px $primarycolor;
+  animation-name: move2;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+
 
 }
 
-footer{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 
 
 
-a.active{
+a.active {
   color: $quartycolor;
   text-decoration: underline;
-  
+
 }

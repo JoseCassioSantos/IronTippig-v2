@@ -1,44 +1,41 @@
+body {
 
+  #links {
 
-body{
-    
-#links{
-      
     height: 200px;
-    
-    #lin-cont{
 
-        display: flex;
-      
-     a{
-      
+    #lin-cont {
+
+      display: flex;
+
+      a {
+
         text-decoration: none;
         color: lightcyan;
         font-size: 10pt;
         text-align: center;
 
-      
 
-        p{
+
+        p {
+          padding: 5px;
+
+
+          &:hover {
+            background: $terciarycolor;
             padding: 5px;
-              
-
-            &:hover{
-                background: $terciarycolor;
-                padding: 5px ;
-            }
+          }
         }
 
-        img{
-            height: 40px;
-            width: 35px;
+        img {
+          height: 40px;
+          width: 35px;
 
-        }   
-        
+        }
+
       }
-        
-    } 
+
+    }
   }
 
 }
-

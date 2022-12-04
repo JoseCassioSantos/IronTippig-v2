@@ -1,33 +1,34 @@
-
-
-body{
+body {
 
     h1 {
         text-align: center;
-        
-    } 
+
+    }
 
 
-    h2, h3, h4, h6{
+    h2,
+    h3,
+    h4,
+    h6 {
         text-align: center;
         color: $terciarycolor
-    } 
+    }
 
-    .contact{
-       
+    .contact {
+
         text-align: center;
         margin: 10px;
-        
 
-    
-        a{
+
+
+        a {
             text-decoration: none;
             background-color: $secondarycolor;
-            padding: 5px  55px;
+            padding: 5px 55px;
             font-size: 15pt;
-            
-            
-           
+
+
+
 
             img {
                 justify-content: center;
@@ -37,21 +38,21 @@ body{
                 height: 20px;
                 width: 20px;
                 filter: invert(1);
-                
+
             }
 
-            &:hover{
-                border-bottom:  2px solid $quartycolor;
+            &:hover {
+                border-bottom: 2px solid $quartycolor;
                 background: $terciarycolor;
                 transition: 0.5s;
             }
-        
+
         }
 
 
     }
 
-    .perfil{
+    .perfil {
 
         display: flex;
         justify-content: center;
@@ -61,20 +62,16 @@ body{
         margin: auto;
         border: 5px solid $terciarycolor;
         box-sizing: content-box;
-        padding: 5px ;
+        padding: 5px;
         transition: 0.5s;
 
-        &:hover{
+        &:hover {
             border: 5px solid $quintycolor;
             width: 12%;
         }
-    
-        
+
+
     }
 
-       
+
 }
-
-
-
-
