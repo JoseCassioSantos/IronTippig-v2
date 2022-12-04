@@ -72,7 +72,7 @@ full = () => {
   document.getElementById("btnffull").style.display = "inline";
 };
 
-function nfull() {
+nfull = () =>  {
   if (document.exitFullscreen) {
     document.exitFullscreen();
   } else if (document.webkitExitFullscreen) {
