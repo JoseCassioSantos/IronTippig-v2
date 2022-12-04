@@ -1,5 +1,5 @@
 
-onload = function() {
+onload = () =>{
   document.getElementById("overlay").style.display = "block";
 
 }
