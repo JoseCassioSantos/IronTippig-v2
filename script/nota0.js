@@ -15,6 +15,8 @@ salvar = () => {
   setTimeout(() => {
     console.log((txtSave.style.display = "none"));
   }, 3000);
+
+  document.location.reload(true);
 };
 
 apaga = () => {
