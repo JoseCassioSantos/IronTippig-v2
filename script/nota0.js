@@ -1,37 +1,36 @@
-salvar = () => {
-  let txtnotas = document.getElementById("notes");
-  let tituloN = document.getElementById("titulo");
+novo = () => {
+  document.location.reload(true);
+};
 
-  titulo = tituloN.value;
-  nota = txtnotas.value;
+
+salvar = () => {
+  const nota = document.getElementById("notes").value;
+  const titulo = document.getElementById("titulo").value;
 
   localStorage.setItem(titulo, nota);
 
   txtSave = document.querySelector("p#restxt");
-  console.log((txtSave.style.display = "block"));
-  console.log((txtSave.style.background = "#bdd39d"));
-  console.log((txtSave.innerHTML = "Conteudo salvo"));
+  txtSave.style.display = "none";
+  txtSave.style.background = "#bdd39d";
+  txtSave.innerHTML = "Conteudo salvo";
+
+  txtSave.style.display = "block";
 
   setTimeout(() => {
-    console.log((txtSave.style.display = "none"));
-  }, 3000);
-
-  document.location.reload(true);
+    document.location.reload(true);
+  }, 1000);
 };
 
 apaga = () => {
-  let txtnotas = document.getElementById("notes");
-  let tituloN = document.getElementById("titulo");
-
-  titulo = tituloN.value;
-  nota = txtnotas.value;
+  const nota = document.getElementById("notes").value;
+  const titulo = document.getElementById("titulo").value;
 
   localStorage.removeItem(titulo, nota);
 
   txtSave = document.querySelector("p#restxt");
-  console.log((txtSave.style.display = "block"));
-  console.log((txtSave.style.background = "#eea0a0"));
-  console.log((txtSave.innerHTML = "Conteudo apagado"));
+  txtSave.style.display = "block";
+  txtSave.style.background = "#eea0a0";
+  txtSave.innerHTML = "Conteudo apagado";
 
   setTimeout(() => {
     console.log((txtSave.style.display = "none"));
@@ -82,11 +81,3 @@ copy = () => {
   }, 2000);
 };
 
-novo = () => {
-  let txtnotas = document.getElementById("notes");
-  let tituloN = document.getElementById("titulo");
-  titulo = tituloN.value;
-  nota = txtnotas.value;
-
-  document.location.reload(true);
-};
