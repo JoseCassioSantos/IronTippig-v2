@@ -72,12 +72,12 @@ copy = () => {
   navigator.clipboard.writeText(copyText.value);
 
   txtSave = document.querySelector("p#restxt");
-  console.log((txtSave.style.display = "block"));
-  console.log((txtSave.style.background = "#c7d9e7"));
-  console.log((txtSave.innerHTML = "Conteudo Copiado"));
+  txtSave.style.display = "block";
+  txtSave.style.background = "#c7d9e7";
+  txtSave.innerHTML = "Conteudo Copiado";
 
   setTimeout(() => {
-    console.log((txtSave.style.display = "none"));
+    txtSave.style.display = "none";
   }, 2000);
 };
 
