@@ -7,6 +7,17 @@ $quintycolor: #04d361;
 $hexacolor: #fff133de;
 $textcolor1: #ffffff;
 $textcolor2: #161614;
+
+
+
+$primarycolor: #f6f7f8;
+$secondarycolor: #818181;
+$terciarycolor: #6b99ce;
+$quartycolor: #3582e7;
+$quintycolor: #04d361;
+$hexacolor: #fff133de;
+$textcolor1: #000000;
+$textcolor2: #030303;
 */
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
@@ -30,14 +41,14 @@ body #header {
   height: 35px;
   font-family: "Roboto", sans-serif;
   color: #030303;
-  border-bottom: 1px solid #818181;
+  border-bottom: 1px solid #77886d;
   margin: 0;
   background-image: url(../src/img/natal.png);
   background-repeat: no-repeat, repeat;
   background-size: 70pt;
 }
 body #header p {
-  border-bottom: 2px solid #3582e7;
+  border-bottom: 2px solid #e73535;
 }
 body #header a {
   text-decoration: none;
@@ -50,7 +61,7 @@ body #content .menu {
   flex-direction: column;
   height: 80vh;
   width: 45px;
-  background-color: #818181;
+  background-color: #77886d;
   border: 1px solid #f6f7f8;
   margin: 0;
   resize: horizontal;
@@ -76,11 +87,11 @@ body #content .menu a {
   color: transparent;
   font-family: "Roboto", sans-serif;
   transition-delay: 0.3s;
-  border-left: 2px solid #818181;
+  border-left: 2px solid #77886d;
 }
 body #content .menu a:hover {
-  background: #6b99ce;
-  border-left: 2px solid #3582e7;
+  background: #ce726b;
+  border-left: 2px solid #e73535;
 }
 body #content .menu .icon {
   filter: invert(1);
@@ -89,7 +100,7 @@ body #content .menu .icon {
 body #content #content-frame {
   display: flex;
   width: 100%;
-  background-color: #818181;
+  background-color: #77886d;
 }
 
 ::-webkit-scrollbar {
@@ -97,18 +108,18 @@ body #content #content-frame {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #6b99ce;
+  box-shadow: inset 0 0 5px #ce726b;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3582e7;
+  background: #e73535;
 }
 
 .under {
   display: inline-block;
   width: 100%;
   vertical-align: middle;
-  background: linear-gradient(90deg, #04d361 0%, #3582e7 35%, #818181 100%);
+  background: linear-gradient(90deg, #04d361 0%, #e73535 35%, #77886d 100%);
 }
 
 #overlay {
@@ -120,7 +131,7 @@ body #content #content-frame {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(90deg, #04d361 0%, #3582e7 35%, #818181 100%) no-repeat;
+  background: linear-gradient(90deg, #04d361 0%, #e73535 35%, #77886d 100%) no-repeat;
   background: url(../src/img/back.jpg) no-repeat;
   background-size: cover;
   z-index: 2;
@@ -202,7 +213,7 @@ body #content #content-frame {
 
 .logo2 {
   position: absolute;
-  background: #3582e7;
+  background: #e73535;
   border-bottom: 3px solid #f6f7f8;
   margin-top: 2%;
   margin-left: 90%;
@@ -224,7 +235,7 @@ footer {
 }
 
 a.active {
-  color: #3582e7;
+  color: #e73535;
   text-decoration: underline;
 }
 
@@ -244,7 +255,7 @@ body #links #lin-cont a p {
   padding: 5px;
 }
 body #links #lin-cont a p:hover {
-  background: #6b99ce;
+  background: #ce726b;
   padding: 5px;
 }
 body #links #lin-cont a img {
@@ -275,7 +286,7 @@ body #links #lin-cont a img {
 }
 #notes:focus {
   outline: none;
-  color: #3582e7;
+  color: #e73535;
 }
 
 #minhaLista {
@@ -304,20 +315,20 @@ body #links #lin-cont a img {
 }
 #titulo:focus {
   outline: none;
-  color: #3582e7;
+  color: #e73535;
 }
 
 .btn {
   border: none;
   padding: 5px;
   font-weight: bold;
-  background: #3582e7;
+  background: #e73535;
   color: #000000;
 }
 
 .btn:hover {
   color: #030303;
-  background: #6b99ce;
+  background: #ce726b;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -331,7 +342,7 @@ body #links #lin-cont a img {
 }
 .btn2:hover {
   color: #030303;
-  background: #6b99ce;
+  background: #ce726b;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -351,7 +362,7 @@ body h3,
 body h4,
 body h6 {
   text-align: center;
-  color: #6b99ce;
+  color: #ce726b;
 }
 body .contact {
   text-align: center;
@@ -359,7 +370,7 @@ body .contact {
 }
 body .contact a {
   text-decoration: none;
-  background-color: #818181;
+  background-color: #77886d;
   padding: 5px 55px;
   font-size: 15pt;
 }
@@ -373,8 +384,8 @@ body .contact a img {
   filter: invert(1);
 }
 body .contact a:hover {
-  border-bottom: 2px solid #3582e7;
-  background: #6b99ce;
+  border-bottom: 2px solid #e73535;
+  background: #ce726b;
   transition: 0.5s;
 }
 body .perfil {
@@ -384,7 +395,7 @@ body .perfil {
   border-radius: 50%;
   width: 10%;
   margin: auto;
-  border: 5px solid #6b99ce;
+  border: 5px solid #ce726b;
   box-sizing: content-box;
   padding: 5px;
   transition: 0.5s;
