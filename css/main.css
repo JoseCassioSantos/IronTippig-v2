@@ -132,7 +132,7 @@ body #content #content-frame {
   right: 0;
   bottom: 0;
   background: linear-gradient(90deg, #04d361 0%, #e73535 35%, #77886d 100%) no-repeat;
-  background: url(../src/img/back.jpg) no-repeat;
+  background: url(../src/img/christmas.jpg) no-repeat;
   background-size: cover;
   z-index: 2;
   overflow: hidden;
