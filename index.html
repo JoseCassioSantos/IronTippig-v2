@@ -25,18 +25,79 @@
         <h5 id="hora"></h5>
     </header>
     <div id="content">
-        <aside class="menu">
 
-            <a href="./pages/aplic.html" target="iframe_a"><img class="icon" src="./src/icons/globalizacao.png" alt="">
-                Aplicações </a>
-            <a href="./pages/Anotação.html" target="iframe_a"><img class="icon" src="./src/icons/lista-de-controle.png"
-                    alt=""> Anotações </a>
-            <a href="./pages/tips.html" target="iframe_a"><img class="icon" src="./src/icons/window.png" alt="">
-                Comandos </a>
-            <a href="./pages/contato.html" target="iframe_a"><img class="icon" src="./src/icons/socorro.png" alt="">
-                    Contatos </a>
+        <!-- <aside class="menu">
+<a href="./pages/aplic.html" target="iframe_a"><img class="icon" src="./src/icons/globalizacao.png" alt="">
+    Aplicações </a>
+<a href="./pages/Anotação.html" target="iframe_a"><img class="icon" src="./src/icons/lista-de-controle.png"
+        alt=""> Anotações </a>
+<a href="./pages/tips.html" target="iframe_a"><img class="icon" src="./src/icons/window.png" alt="">
+    Comandos </a>
+<a href="./pages/contato.html" target="iframe_a"><img class="icon" src="./src/icons/socorro.png" alt="">
+        Contatos </a>
+         </aside>
+-->
+            
+      <div id="side_bar" class="sidenav">
+        <span
+          id="openMenu"
+          class="material-symbols-outlined"
+          onclick="openNav()"
+          title="Expandir"
+          >menu</span
+        >
+        <span
+          id="closeMenu"
+          class="material-symbols-outlined"
+          onclick="closeNav()"
+          title="Recolher"
+          >keyboard_double_arrow_left</span
+        >
 
-        </aside>
+        <a class="link_conteiner" href="./pages/welcome.html" target="iframe_a">
+          <span class="material-symbols-outlined" title="Links">
+            home
+            <p>Home</p></span
+          >
+          </a>
+
+        <a class="link_conteiner" href="./pages/aplic.html" target="iframe_a">
+          <span
+            class="material-symbols-outlined"
+            title="Links"
+            >dynamic_feed
+            <p>links</p></span
+          >
+        </a>
+
+        <a class="link_conteiner" href="./pages/Anotação.html" target="iframe_a">
+          <span
+            class="material-symbols-outlined"
+            title="Anotações"
+            >chrome_reader_mode
+            <p>Notas</p></span
+          >
+        </a>
+
+        <a class="link_conteiner" href="./pages/tips.html" target="iframe_a">
+          <span
+            class="material-symbols-outlined"
+            title="Base"
+            >view_compact_alt
+            <p>Base</p></span
+          >
+        </a>
+
+        <a class="link_conteiner" href="./pages/contato.html" target="iframe_a">
+          <span
+            class="material-symbols-outlined"
+            title="Sobre"
+            >help_center
+            <p>Sobre</p></span
+          >
+        </a>
+      </div>
+ 
 
         <section id="content-frame">
             <iframe src="./pages/welcome.html" name="iframe_a" height="95%" width="100%" frameborder="0" h></iframe>
@@ -78,7 +139,7 @@
 
 
         <span class="infor">
-            <p>ver.2.9.9</p>
+            <p>ver.3.0.0</p>
         </span>
 
     </footer>

@@ -1,0 +1,72 @@
+
+
+/*#side_bar{
+
+
+}*/
+
+.sidenav{
+  
+    width: 49px; 
+    top: 0;
+    left: 0;
+    padding-left: 2px;
+    background-color: $secondarycolor; 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+    border: 1px solid $primarycolor;
+  }
+  .sidenav p{
+  
+    font-size: 1rem;
+    display: inline;
+    padding-left: 2px ;
+    text-align: center;
+    vertical-align: super ;
+    color: $primarycolor;
+    
+  }
+  
+  
+  #closeMenu{
+  
+    display: none;
+    padding-bottom: 5px;
+    background-color: $terciarycolor;
+  
+  }
+  #openMenu{
+  
+    padding-bottom: 5px;
+    background-color: $terciarycolor;
+    width: 170px;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' 0,
+    'opsz' 48;
+    font-size: 1.7em;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    margin: 0;
+    border-radius: 5px;
+    color: $primarycolor;
+  }
+  
+  
+  .material-symbols-outlined:hover{
+    
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 0;
+    background-color: $terciarycolor;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-right: 50px;
+  }
+  

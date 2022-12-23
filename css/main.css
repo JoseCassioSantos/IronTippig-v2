@@ -1,4 +1,5 @@
 /*
+
 $primarycolor: #1b2027;
 $secondarycolor: #2d2e2e;
 $terciarycolor: #5b6569;
@@ -10,6 +11,7 @@ $textcolor2: #161614;
 
 
 
+
 $primarycolor: #f6f7f8;
 $secondarycolor: #818181;
 $terciarycolor: #6b99ce;
@@ -18,6 +20,7 @@ $quintycolor: #04d361;
 $hexacolor: #fff133de;
 $textcolor1: #000000;
 $textcolor2: #030303;
+
 */
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
@@ -26,7 +29,7 @@ $textcolor2: #030303;
   font-family: "Roboto", sans-serif;
   padding: 2px;
   font-weight: bolder;
-  color: #000000;
+  color: #0c0c0c;
   margin: 0;
 }
 
@@ -38,9 +41,10 @@ body #header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 35px;
+  height: 45px;
+  padding-right: 5px;
   font-family: "Roboto", sans-serif;
-  color: #030303;
+  color: #f0e8e8;
   border-bottom: 1px solid #77886d;
   margin: 0;
   background-image: url(../src/img/natal.png);
@@ -76,7 +80,7 @@ body #content .menu:hover {
 }
 body #content .menu:hover a {
   padding: 10px 10px;
-  color: #000000;
+  color: #0c0c0c;
 }
 body #content .menu a:first-child {
   margin-top: 1rem;
@@ -246,7 +250,7 @@ a.active {
   border: 1px solid gray;
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 2px 2px 5px #030303;
+  box-shadow: 2px 2px 5px #0c0c0c;
 }
 
 .card_main p {
@@ -307,7 +311,7 @@ body #links #lin-cont a img {
   height: 290px;
   width: 100%;
   padding-top: 0;
-  color: #030303;
+  color: #f0e8e8;
   font-weight: bolder;
   resize: none;
 }
@@ -327,7 +331,7 @@ body #links #lin-cont a img {
   overflow-y: scroll;
 }
 #minhaLista h6 {
-  color: #000000;
+  color: #0c0c0c;
 }
 
 #titulo {
@@ -338,7 +342,7 @@ body #links #lin-cont a img {
   border-bottom: none;
   padding-bottom: 0;
   font-size: 15pt;
-  color: #030303;
+  color: #f0e8e8;
 }
 #titulo:focus {
   outline: none;
@@ -350,11 +354,12 @@ body #links #lin-cont a img {
   padding: 5px;
   font-weight: bold;
   background: #e73535;
-  color: #000000;
+  color: #0c0c0c;
+  border-radius: 5px;
 }
 
 .btn:hover {
-  color: #030303;
+  color: #f0e8e8;
   background: #ce726b;
   cursor: pointer;
   transition: 0.5s;
@@ -365,10 +370,10 @@ body #links #lin-cont a img {
   padding: 5px;
   font-weight: bold;
   background: #f6f7f8;
-  color: #000000;
+  color: #0c0c0c;
 }
 .btn2:hover {
-  color: #030303;
+  color: #f0e8e8;
   background: #ce726b;
   cursor: pointer;
   transition: 0.5s;
@@ -434,4 +439,58 @@ body .perfil:hover {
 
 a {
   text-decoration: none;
+}
+
+/*#side_bar{
+
+
+}*/
+.sidenav {
+  width: 49px;
+  top: 0;
+  left: 0;
+  padding-left: 2px;
+  background-color: #77886d;
+  overflow-x: hidden;
+  transition: 0.5s;
+  border: 1px solid #f6f7f8;
+}
+
+.sidenav p {
+  font-size: 1rem;
+  display: inline;
+  padding-left: 2px;
+  text-align: center;
+  vertical-align: super;
+  color: #f6f7f8;
+}
+
+#closeMenu {
+  display: none;
+  padding-bottom: 5px;
+  background-color: #ce726b;
+}
+
+#openMenu {
+  padding-bottom: 5px;
+  background-color: #ce726b;
+  width: 170px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 48;
+  font-size: 1.7em;
+  padding-left: 8px;
+  padding-bottom: 5px;
+  margin: 0;
+  border-radius: 5px;
+  color: #f6f7f8;
+}
+
+.material-symbols-outlined:hover {
+  font-variation-settings: "FILL" 1, "wght" 200, "GRAD" 0, "opsz" 0;
+  background-color: #ce726b;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-right: 50px;
 }/*# sourceMappingURL=main.css.map */
