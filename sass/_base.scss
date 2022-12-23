@@ -246,3 +246,35 @@ a.active {
   text-decoration: underline;
 
 }
+
+.card_main{
+    
+  margin: 20px;
+  width: 200px;
+  height: 200x;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px $textcolor2;
+
+}
+
+.card_main p{
+
+  font-size: 0.7rem;
+}
+
+#content_page{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+}
