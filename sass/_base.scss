@@ -29,7 +29,7 @@ body {
     color: $textcolor2;
     border-bottom: 1px solid $secondarycolor;
     margin: 0;
-    background-image: url(../src/img/natal.png);
+   // background-image: url(../src/img/natal.png);
     background-repeat: no-repeat, repeat;
     background-size: 70pt;
 
@@ -46,12 +46,12 @@ body {
 
   #content {
     display: flex;
-
+    padding: 5px;
     .menu {
       display: flex;
       flex-direction: column;
       height: 80vh;
-      width: 45px;
+      width: 2px;
       background-color: $secondarycolor;
       border: 1px solid $primarycolor;
       margin: 0;
@@ -59,9 +59,10 @@ body {
       overflow: hidden;
       transition: 0s;
       transition-delay: 0.3s;
+  
 
 
-      &:hover {
+     /* &:hover {
         
         z-index: 5;
         width: 150px;
@@ -98,7 +99,7 @@ body {
 
 
       }
-
+*/
 
 
       .icon {
@@ -114,6 +115,7 @@ body {
       display: flex;
       width: 100%;
       background-color: $secondarycolor;
+    
 
 
     }
@@ -141,7 +143,10 @@ body {
   width: 100%;
   vertical-align: middle;
   background: linear-gradient(90deg, $quintycolor 0%, $quartycolor 35%, $secondarycolor 100%);
+  text-align: center;
+  font-size: 12px;
 
+ 
 
 }
 
@@ -156,7 +161,7 @@ body {
   right: 0;
   bottom: 0;
   background: linear-gradient(90deg, $quintycolor 0%, $quartycolor 35%, $secondarycolor 100%) no-repeat;
-  background: url(../src/img/christmas.jpg) no-repeat;
+  background: url(../src/img/back.jpg) no-repeat;
   background-size: cover;
   z-index: 2;
   overflow: hidden;
@@ -256,7 +261,7 @@ a.active {
   border: 1px solid gray;
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 2px 2px 5px $textcolor1;
+  box-shadow: 2px 2px 5px $textcolor2;
 
 }
 
@@ -271,7 +276,7 @@ a.active {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   overflow: auto;
   display: flex;
   justify-content: center;
