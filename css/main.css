@@ -182,7 +182,7 @@ body #content #content-frame {
   bottom: 0;
   background: -webkit-gradient(linear, left top, right top, from(#04d361), color-stop(35%, #5b5bd4), to(#2d2e2e)) no-repeat;
   background: linear-gradient(90deg, #04d361 0%, #5b5bd4 35%, #2d2e2e 100%) no-repeat;
-  background: url(../src/img/back.jpg) no-repeat;
+  background: url(http://source.unsplash.com/random) no-repeat;
   background-size: cover;
   z-index: 2;
   overflow: hidden;
