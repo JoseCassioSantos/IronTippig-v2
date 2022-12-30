@@ -125,7 +125,8 @@ body #content #content-frame {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -318,14 +319,14 @@ body #links #lin-cont a img {
 
 .content {
   padding: 0;
-  margin: 0;
+  margin: 10px;
   display: flex;
   box-sizing: content-box;
+  flex-direction: column;
 }
 
 #content_text {
-  width: 100%;
-  margin: 10px;
+  width: 98%;
   padding-top: 0;
 }
 
@@ -345,15 +346,11 @@ body #links #lin-cont a img {
 #minhaLista {
   margin: 0;
   padding: 0;
-  border: 1px solid;
-  height: 350px;
-  width: 20%;
+  border: none;
+  width: 98%;
   display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
-}
-#minhaLista h6 {
-  color: #ffffff;
+  flex-direction: row;
+  overflow-x: scroll;
 }
 
 #titulo {
@@ -388,11 +385,17 @@ body #links #lin-cont a img {
 }
 
 .btn2 {
-  border: 1px solid;
-  padding: 5px;
-  font-weight: bold;
-  background: #1b2027;
+  background: #2d2e2e;
   color: #ffffff;
+  min-width: 120px;
+  max-width: 120px;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px 5px 0px 0px;
+  margin: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .btn2:hover {
   color: #161614;

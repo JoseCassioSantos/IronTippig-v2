@@ -1,17 +1,14 @@
 .content {
   padding: 0;
-  margin: 0;
+  margin: 10px;
   display: flex;
   box-sizing: content-box;
+  flex-direction: column;
 }
 
 #content_text {
-  width: 100%;
-  margin: 10px;
+  width: 98%;
   padding-top: 0;
-
-
-
 
 }
 
@@ -37,17 +34,12 @@
 
   margin: 0;
   padding: 0;
-  border: 1px solid;
-  height: 350px;
-  width: 20%;
+  border: none;
+  width: 98%;
   display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
+  flex-direction: row;
+  overflow-x: scroll;
 
-  h6 {
-
-    color: $textcolor1;
-  }
 
 }
 
@@ -92,12 +84,18 @@
 
 
 .btn2 {
-  border: 1px solid;
-  padding: 5px;
-  font-weight: bold;
-  background: $primarycolor ;
+  
+  background: $secondarycolor;
   color: $textcolor1;
- 
+  min-width: 120px;
+  max-width: 120px;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px 5px 0px 0px;
+  margin: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
   &:hover {
     color: $textcolor2;
@@ -113,6 +111,9 @@
 
 }
 
+#restxt{
+ 
+}
 
 p#restxt {
 
@@ -120,4 +121,5 @@ p#restxt {
   text-align: center;
   border-radius: 5px;
   z-index: 2;
+  
 }
