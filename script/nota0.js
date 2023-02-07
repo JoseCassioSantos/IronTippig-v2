@@ -4,8 +4,9 @@ novo = () => {
 
 
 salvar = () => {
-  const nota = document.getElementById("notes").value;
+  let nota = document.getElementById("notes").value;
   const titulo = document.getElementById("titulo").value;
+
 
   localStorage.setItem(titulo, nota);
 
