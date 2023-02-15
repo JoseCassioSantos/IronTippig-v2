@@ -285,3 +285,15 @@ a.active {
   justify-items: center;
 
 }
+
+#tips{
+
+  border: 1px black solid;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 5px 5px  10px black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
