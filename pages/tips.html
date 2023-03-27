@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
     <script src="../script/tips.js"></script>
     <script src="../script/script.js"></script>
 
     <style>
-        * {
-            margin-top: 0;
-            margin-left: 0;
-
-        }
+      * {
+        margin-top: 0;
+        margin-left: 0;
+      }
     </style>
 
     <title>Dicas</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="tiptop">
-        <h1>Comandos Úteis</h1>
-        <span class="under"> Comandos</span>
+      <h1>Scripts</h1>
+      <span class="under">Para duvilgação no grupos de crise</span>
     </div>
     <div id="tips" class="firstop">
-            <h5>Script Passagem de Turno</h5>
-        <pre>/*Passagem de Turno CSC TI - GCO*/</pre>
-        <div>
-            <textarea id="tip1" cols="70" rows="25" disabled>
-
+      <h5>Script Passagem de Turno</h5>
+      <pre>/*Passagem de Turno CSC TI - GCO*/</pre>
+      <div>
+        <textarea id="tip1" cols="70" rows="20" disabled>
     *1 - Falha de Link*
 
     *Chamado Operadora:* 
@@ -49,87 +46,118 @@
     *Sala do acompanhamento do dia Seguinte:* 
 
     *3 - Chamados de Alarmes*
-
-            </textarea>
-        </div>
-        <div>
-            <button class="btn" onclick="tip1()">Copiar</button>
-        </div>
+ </textarea
+        >
+      </div>
+      <div>
+        <button class="btn" onclick="tip1()">Copiar</button>
+      </div>
     </div>
 
     <div id="tips">
-        <h5>Script de Abertura Problema de Links</h5>
-        <pre>/*De abertura de links*/</pre>
-        <div>
-            <textarea id="tip2" cols="70" rows="25" disabled>
+      <h5>Script de Abertura Problema de Links</h5>
+      <pre>/*De abertura de links*/</pre>
+      <div>
+        <textarea id="tip2" cols="70" rows="15" disabled>
+           
+*Indisponibilidade de Link*
 
-                
-    *Indisponibilidade de Link*
+*Data Abertura:*
+*Host:* 
+*Designação:* 
+*Operadora:* 
+*Atendente:*  
+*Chamado:* 
+*Protocolo:* 
+*Chamado interno:* 
+*Horário abertura:*
+*Nivel de Escalonamento:*
+*SLA:* </textarea
+        >
+      </div>
 
-    *Data Abertura:*
-    *Host:* 
-    *Designação:* 
-    *Operadora:* 
-    *Atendente:*  
-    *Chamado:* 
-    *Protocolo:* 
-    *Chamado interno:* 
-    *Horário abertura:*
-    *Nivel de Escalonamento:*
-    *SLA:* 
-                
-                
-    *OBS:* Cobrar 24/7 de 30 em 30 minutos.
-    E enviar no grupo de crise mensionando o ultimo reporte,
-    para manter o Histórico.
-
-            </textarea>
-        </div>
-
-        <div>
-            <button class="btn" onclick="tip2()">Copiar</button>
-        </div>
+      <div>
+        <button class="btn" onclick="tip2()">Copiar</button>
+      </div>
     </div>
     <div id="tips">
-        <h5>Diretório cortina de ferro</h5>
-        <pre>/*Diretório local da Cortina de ferro*/</pre>
-        <div>
-            <textarea id="tip3" cols="55" disabled>\move\app\punchclockwinclient\punchclockwinclient.exe</textarea>
-        </div>
+      <h5>Scrip de abertura de crise</h5>
+      <pre>/*Para divugação no divugação de crise*/</pre>
+      <div>
+        <textarea id="tip3"  cols="70" rows="12" disabled>
 
-        <div>
-            <button class="btn" onclick="tip3()">Copiar</button>
-        </div>
+*Site/Oper:* Site – Operação Máquinas (10/10)
+*Assunto:*
+*Descrição:*
+
+*Início em:* 00h00
+*Chamado:*
+*Contatos:*
+
+*Link da sala*
+            </textarea
+        >
+      </div>
+
+      <div>
+        <button class="btn" onclick="tip3()">Copiar</button>
+      </div>
     </div>
     <div id="tips">
-        <h5>Atualizar políticas</h5>
-        <pre>/*Comando que atuliza as politicas de grupo*/</pre>
-        <div>
-            <textarea id="tip4" cols="55" disabled>gpupdate /force /boot</textarea>
-        </div>
-       
-        <div>
-            <button class="btn" onclick="tip4()">Copiar</button>
-        </div>
+      <h5>Script para Andamento de crise</h5>
+      <pre>/*Para divugação no grupo de crise*/</pre>
+      <div>
+        <textarea id="tip4" cols="70" rows="15" disabled>
+
+*Site/Oper:* Site – Operação Máquinas (10/10)
+*Assunto:*
+*Descrição:*
+*Análise:*
+            
+*Próximos passos:*
+*Andamento da ação:*
+            
+*Início em:* 00h00
+*Chamado:*
+*Contatos:*
+            
+*Participantes*
+        </textarea>
+      </div>
+
+      <div>
+        <button class="btn" onclick="tip4()">Copiar</button>
+      </div>
     </div>
 
     <div id="tips">
-        <h5>Atualizar políticas</h5>
-        <pre>/*Comando exibe as politicas de grupo*/</pre>
-        <div>
-            <textarea id="tip5" cols="55" disabled>gpresult -r</textarea>
-        </div>
-      
-        <div>
-            <button class="btn" onclick="tip5()">Copiar</button>
-        </div>
+      <h5>Script para fechamento de crise</h5>
+      <pre>/*Para divugação no grupo de crise*/</pre>
+      <div>
+        <textarea id="tip5" cols="70" rows="15" disabled>
+*Site/Oper:* Site – Operação Máquinas (10/10)
+*Assunto:*
+*Descrição:*
+*Análise:*
+            
+*Causa detectada:*
+*Provável Solução:*
+            
+*Início em:* 00h00 - *Fim em:* 00h00 - *Duração:* 00h00
+*Chamado:*
+*Contatos:*</textarea>
+      </div>
+
+      <div>
+        <button class="btn" onclick="tip5()">Copiar</button>
+      </div>
     </div>
-   
+
     <div id="tips">
-        <h5>Senhas</h5>
-        <pre>/*Administrador padrão*/</pre>
-        <div>
-            <textarea id="tip6" cols="100" rows="10" disabled>
+      <h5>Senhas</h5>
+      <pre>/*Administrador padrão*/</pre>
+      <div>
+        <textarea id="tip6" cols="100" rows="10" disabled>
              Bom dia TI (JBT)
 
             Senhas
@@ -139,33 +167,25 @@
             *H3!pD35K*H3!pD
             *H3!pD35K*H3  
         </textarea>
-        </div>
-    
-        <div>
-            <button class="btn" onclick="tip6()">Copiar</button>
-        </div>
+      </div>
 
-
-
-
+      <div>
+        <button class="btn" onclick="tip6()">Copiar</button>
+      </div>
     </div>
 
     <div id="tips">
-        <h5>Instala o Telnet</h5>
-        <pre>/*Instala o Telnet*/</pre>
-        <div>
-            <textarea id="tip7" cols="55" disabled>pkgmgr /iu:"TelnetClient"</textarea>
-        </div>
-       
-        <div>
-            <button class="btn" onclick="tip7()">Copiar</button>
-        </div>
+      <h5>Instala o Telnet</h5>
+      <pre>/*Instala o Telnet*/</pre>
+      <div>
+        <textarea id="tip7" cols="55" disabled>
+pkgmgr /iu:"TelnetClient"</textarea
+        >
+      </div>
 
+      <div>
+        <button class="btn" onclick="tip7()">Copiar</button>
+      </div>
     </div>
-
-
- 
-
-</body>
-
+  </body>
 </html>
