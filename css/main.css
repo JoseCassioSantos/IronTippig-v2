@@ -50,6 +50,7 @@ body #header {
   color: #161614;
   border-bottom: 1px solid #2d2e2e;
   margin: 0;
+  background-image: url(../src/img/Junback3.png);
   background-repeat: no-repeat, repeat;
   background-size: 70pt;
 }
