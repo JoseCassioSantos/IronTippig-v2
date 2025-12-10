@@ -50,6 +50,7 @@ body #header {
   color: #f0e8e8;
   border-bottom: 1px solid #77886d;
   margin: 0;
+  background-image: url(../src/img/natal.png);
   background-repeat: no-repeat, repeat;
   background-size: 70pt;
 }
