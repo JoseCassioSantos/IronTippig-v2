@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -8,32 +8,37 @@
   <script src="../script/nota0.js"></script>
   <script src="../script/script.js"></script>
   <link rel="stylesheet" href="../css/main.css">
-  <title>Document</title>
+  <title>Notas — Iron Tipping</title>
 </head>
 
 <body>
-  <header>
-    <h1>Notas</h1>
-  </header>
+  <div class="page-wrap">
+    <div class="page-title">
+      <span class="material-symbols-outlined">chrome_reader_mode</span>
+      <h1>Notas</h1>
+    </div>
+    <p class="page-sub">Faça suas anotações, salve, apague ou copie com um clique.</p>
 
-  <span class="under">Faça sua anotação</span>
-  <p id="restxt"></p>
-  <main class="content">
-    <section id="minhaLista">  
-    </section>
-    <section id="content_text">
-      <textarea id="titulo" placeholder="Titulo"></textarea>
-      <textarea id="notes" placeholder="Anotações"></textarea>
-      <br>
-      <button class="btn" onclick="novo()">Novo</button>
-      <button class="btn" onclick="salvar()">Salvar</button>
-      <button class="btn" onclick="apaga()">Apagar</button>
-      <button class="btn" onclick="copy()">Copiar</button>
-    </section>
+    <span class="under"></span>
 
+    <main class="content">
+      <section id="minhaLista"></section>
 
-  </main>
-
+      <section id="content_text" style="margin-top:24px;">
+        <div class="textarea-wrap">
+          <textarea id="titulo" placeholder="Título"></textarea>
+          <textarea id="notes" placeholder="Anotações"></textarea>
+        </div>
+        <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;">
+          <button class="btn btn-primary" onclick="novo()">Novo</button>
+          <button class="btn btn-primary" onclick="salvar()">Salvar</button>
+          <button class="btn btn-danger" onclick="apaga()">Apagar</button>
+          <button class="btn btn-primary" onclick="copy()">Copiar</button>
+        </div>
+        <p id="restxt" style="margin-top:12px;min-height:20px;"></p>
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>
