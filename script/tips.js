@@ -1,87 +1,30 @@
-tip1 = () => {
-  let copyText = document.getElementById("tip1");
+/**
+ * Iron Tipping — Scripts de cópia rápida
+ * Gerencia os botões "Copiar" da página tips.html
+ */
 
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
+/* ---------- utilitário ---------- */
+function copiar(id) {
+  const el = document.getElementById(id);
+  if (!el) {
+    console.warn(`[IronTipping] Elemento #${id} não encontrado`);
+    return;
+  }
+  el.select();
+  el.setSelectionRange(0, 99999);
+  navigator.clipboard
+    .writeText(el.value)
+    .then(() => window.alert("Copiado"))
+    .catch((err) => {
+      console.error("[IronTipping] Falha ao copiar:", err);
+      window.alert("Não foi possível copiar");
+    });
+}
 
-  navigator.clipboard.writeText(copyText.value);
-
-  window.alert("Copiado");
-};
-
-tip2 = () => {
-  let copyText = document.getElementById("tip2");
-
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-
-  navigator.clipboard.writeText(copyText.value);
-
-  window.alert("Copiado");
-};
-
-tip3 = () => {
-  let copyText = document.getElementById("tip3");
-
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-
-  navigator.clipboard.writeText(copyText.value);
-
-  window.alert("Copiado");
-};
-
-tip4 = () => {
-  let copyText = document.getElementById("tip4");
-
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-
-  navigator.clipboard.writeText(copyText.value);
-
-  window.alert("Copiado");
-};
-
-tip5 = () => {
-  let copyText = document.getElementById("tip5");
-
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-
-  navigator.clipboard.writeText(copyText.value);
-
-  window.alert("Copiado");
-};
-
-tip6 = () => {
-  let copyText = document.getElementById("tip6");
-
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-
-  navigator.clipboard.writeText(copyText.value);
-
-  window.alert("Copiado");
-};
-
-tip7 = () => {
-  let copyText = document.getElementById("tip7");
-
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-
-  navigator.clipboard.writeText(copyText.value);
-
-  window.alert("Copiado");
-};
-
-tip8 = () => {
-  let copyText = document.getElementById("tip8");
-
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-
-  navigator.clipboard.writeText(copyText.value);
-
-  window.alert("Copiado");
-};
+/* ---------- exposto globalmente para os buttons onclick ---------- */
+window.tip1 = () => copiar("tip1");
+window.tip2 = () => copiar("tip2");
+window.tip3 = () => copiar("tip3");
+window.tip4 = () => copiar("tip4");
+window.tip5 = () => copiar("tip5");
+window.tip7 = () => copiar("tip7");

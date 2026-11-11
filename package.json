@@ -1,0 +1,54 @@
+{
+  "name": "irontippig-v2",
+  "version": "2.0.0",
+  "description": "hub de aplicativo que ultilizo no dia a dia!",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "set NODE_ENV=development&& electron .",
+    "build": "electron-builder --win",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["electron", "hub", "desktop", "google-login"],
+  "author": "JoseCassioSantos",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseCassioSantos/IronTippig-v2.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JoseCassioSantos/IronTippig-v2/issues"
+  },
+  "homepage": "https://github.com/JoseCassioSantos/IronTippig-v2#readme",
+  "devDependencies": {
+    "electron": "^45.0.0",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "productName": "Iron Tipping",
+    "appId": "com.irontipping.app",
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Iron Tipping",
+      "include": "build/installer.nsh"
+    },
+    "files": [
+      "index.html",
+      "css/**/*",
+      "pages/**/*",
+      "script/**/*",
+      "src/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "extraResources": []
+  }
+}

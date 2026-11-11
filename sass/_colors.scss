@@ -1,13 +1,24 @@
 
 
-$primarycolor: #1b2027;
-$secondarycolor: #2d2e2e;
-$terciarycolor: #5b6569;
-$quartycolor: #5b5bd4;
+/* Cores da marca NEO */
+$neo-azul: #000150;
+$neo-ciano: #144FE8;
+$neo-vermelho: #FF0000;
+$neo-roxo: #A388DF;
+
+/* Paleta derivada */
+$primarycolor: $neo-azul;
+$secondarycolor: #1b2027;
+$terciarycolor: $neo-ciano;
+$quartycolor: $neo-roxo;
 $quintycolor: #04d361;
 $hexacolor: #fff133de;
 $textcolor1: #ffffff;
 $textcolor2: #161614;
+
+/* Fonte da marca */
+$fonte-marca: "General Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Helvetica, Arial, sans-serif;
 
 
 

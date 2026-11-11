@@ -7,28 +7,28 @@ setInterval(() => {
   let segundo = novaHora.getSeconds();
 
   let meses = [
-    "Janeiro",
-    "Fevereiro",
-    "Março",
-    "Abril",
-    "Maio",
-    "Junho",
-    "Julho",
-    "Augosto",
-    "Setembro",
-    "Outubro",
-    "Nov",
-    "Dezembro",
-  ];
-  let semana = [
-    "Domingo",
-    "segunda-feira",
-    "terça-feira",
-    "quarta-feira",
-    "quinta-feira",
-    "sexta-feira",
-    "Sabado",
-  ];
+      "Janeiro",
+      "Fevereiro",
+      "Março",
+      "Abril",
+      "Maio",
+      "Junho",
+      "Julho",
+      "Agosto",
+      "Setembro",
+      "Outubro",
+      "Novembro",
+      "Dezembro",
+    ];
+    let semana = [
+      "Domingo",
+      "Segunda-feira",
+      "Terça-feira",
+      "Quarta-feira",
+      "Quinta-feira",
+      "Sexta-feira",
+      "Sábado",
+    ];
 
   let dia = data.getDate();
   let mes = meses[data.getMonth()];
